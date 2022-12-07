@@ -1,43 +1,37 @@
 # Syllabus 
 
-**BIOL254: Comparative Animal Behavior**
+**BIOL358: Neurobiology of Movement**
 
 **Instructor**  
 *Name* : Krista Perks, PhD (they/she)  
 *Email* : kperks@wesleyan.edu  
-*Office Hours*: 12-1 Tuesdays and Wednesdays [via Zoom](https://wesleyan.zoom.us/j/94621043921?pwd=OC96eEtTMll5QitvUE9YSmtFWWgvdz09). If no one shows up within the first 10 min I will close the zoom. So if you need to arrive after the first 10 min email me ahead of time. 
-
-**Course Assistant**  
-*Name* : Katie Sagarin (PhD Candidate)  
-*Email* : ksagarin@wesleyan.edu  
-*Office Hours* : Wednesday 3-4pm in ofice Shanklin 208  
-
-**Peer Tutor**  
-*Name* : Sarah Timbie  
-*Email* : stimbie@wesleyan.edu  
-[Submit a request for tutoring](https://www.wesleyan.edu/sar/tutoring/request.html)
+*Office Hours*: [via Zoom](https://wesleyan.zoom.us/j/94621043921?pwd=OC96eEtTMll5QitvUE9YSmtFWWgvdz09). Please schedule during this time by appointment. 
 
 **Classroom Sessions**  
 Tuesdays and Thursdays 8:50-10:10am SCIE109
 
-:::{epigraph}
-Education is not the learning of facts, but the training of the mind to think.
-
--- Albert Einstein 
-:::
-
-:::{epigraph}
-The mind is not a vessel that needs filling, but wood that needs igniting.
-
--- Plutarch 
-:::
-
 ## Background and Introduction  
 
-As an introduction to the study of animal behavior, this course will examine the factors that control the behavior of vertebrates and invertebrates within evolutionary, and physiological contexts. All animals face similar challenges and we will examine the common, and sometimes unique, behavioral strategies used to meet these challenges. This kind of comparative approach is paramount to ethology, which is the scientific study of animal behavior. Animal behavior is the main subject of this course, and the overarching goal is learning what it means to understand animal behavior through the scientific method. To achieve this goal, you will practice synthesizing knowledge and approaches from diverse fields of science that you have already encountered in your studies: genetics, evolutionary biology and ecology, developmental biology, neuroscience, molecular biology, and psychology (to name a few). 
+The motor system does much more than contract muscles. Even the most basic movements such as walking require whole-body coordination that must be learned and adapted to our environment. During active sensation, motor systems even modulate our sensory perceptions. Much of what we have learned about motor systems comes from animals as diverse as crickets, electric fish, and birds. This course uses a comparative approach to understand the functions various brain regions contribute to our active lives.
+
+*General topics covered in this course include*: kinematics, neural and muscle electrophysiology, central pattern generators, action-specific neural circuits, motor cortex, basal ganglia, cerebellum, corollary discharge.
+
+By the end of this course, students should be able to:
+- Formulate and support an opinion about how each part of the motor system contributes to motor control.
+- Interpret the main types of data that can be collected and interpret processed metrics.
+- Explain neural mechanisms involved in the production of a motor sequence by an animal.
+- Explore raw data through interactive visualizations.
+
+You should gain skills in:
+- The scientific study of animal behavior and the motor system 
+- Visual presentation of information
+- Analytical thinking
+- Reading primary literature
 
 Of you I ask:
-- Respect to yourself and others in the class.
+- Come to class having thoroughly read the reading and completed any assignments ahead of time. Try to figure out things you have questions about. Note down anything you are wondering or related concepts you think of. Etc
+- Remember the basic perspective on any scientific result: don’t believe it is true. Don’t take published papers at face value.
+- Respect to yourself and others in the class. Different people have different backgrounds, interests, and learning styles. All are important to consider.
 - Independence and self-motivation. This is your education. The learning process belongs to you.
 - That you have fun and explore.
 
@@ -46,6 +40,24 @@ We’ll be working together to create an equitable and inclusive environment of 
 You are encouraged to *scrutinise* and *question* learning material as you explore topics in your own way. I, as the instructor, am here to serve as your coach from the sidelines. The goal is for you to develop your own understanding of the topics and practice the skills needed to be a life-long learner -- skills that you can apply to learning anything, in academia, your career, or life in general. Among the broader skill goals that you will be working on are: Communication, Collaboration, Critical Thinking, and Creativity.
 
 This class is about more than Animal Behavior as a topic itself. The content of the "animal behavior" is vast. This course is curated to mentor you in "thinking like an animal behavior scientist" - a priority greater than the task of '*knowing*' all specific details of behaviors we discuss. Outside of the course, many of you are unlikely to be regularly applying most (if any) of the specific content knowledge about each sub-topic or behavior that we explore inside this course. This is not to diminish the importance of this content, but rather to emphasize the importance of getting more than just content "knowledge" memorization out of this (and any) classroom experience. In this course (and others) I hope you find inspiration and develop *your own interests*, and develop the skills to go on to study those interests in depth in your own unique ways. 
+
+The materials used in this course have been thoughtfully curated and designed to meet the following standards as published in “[The New Blueprints: Undergraduate Neuroscience Education in the Twenty-First Century.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6153019/)“ 
+Specifically, this course works toward the following goals:
+- To have students explore neuroscience more deeply by:
+  - Increasing exposure to primary literature
+  - Engaging them in analysis of research and research findings
+  - Providing experiences in presenting research findings, orally, visually, and in writing
+Involving them in more sophisticated analytic, quantitative, computational, and empirical work
+- To promote students becoming independent investigators in neuroscience by gaining:
+  - an in-depth understanding of primary literature;
+  - facility with sophisticated quantitative and computational skills;
+
+Some of the materials challenge you to interact with and analyze raw data. I ask that you keep a growth mindset and understand that [there is no such thing as a computational person](https://medium.com/the-spike/there-is-no-such-thing-as-a-computational-person-cca658b5c8f9).
+
+The assessment in this course requires that you formulate your own opinions and models and curate what information you think is relevant to express those opinions. This structure is a bit open-ended, which can feel uncomfortable. You will not be told what to prioritize in your editorials, which can feel uncomfortable. Classroom discussions will revolve around what you find interesting and challenging. You do not need to “know the answer” to contribute to discussions. Be open to dialog and debate and to holding conflicting ideas in your mind.
+
+For this course you will read journal papers. Students often have two reactions to journal papers: (1) I don’t understand a word of this, please can I have my textbook back? (Answer: no, because the textbook is wrong). And (2) it’s published, so it must be true. This is nonsense. Papers are, in all probability, wrong. Do not defer to authority, but be constructively skeptical – ask of a paper basic questions: “do the claims follow from the actual results?”; “What could have been done better?”; “What could be done next?”. We need to remember a simple truth: Every paper is an idea – it says “hey look at this, this could be cool”. Not “This is The Truth.” ([Excerpt from Mark Humphries](https://medium.com/the-spike/most-research-i-publish-will-be-wrong-and-im-ok-with-that-3440e795358d))
+
 
 
 :::{epigraph}
@@ -60,7 +72,7 @@ It is important that students bring a certain ragamuffin[^ragamuffin], barefoot 
 ## Course Resources
 - The course website (which you accessed to read this syllabus) contains all course materials that you will need. 
 - Assignments are handed in and graded via [**Gradescope**](https://www.gradescope.com/).
-  - [Joining the course through your Gradescope account](https://help.gradescope.com/article/gi7gm49peg-student-add-course). <font color="green">Course Code: XVXVJY</font>. 
+  - [Joining the course through your Gradescope account](https://help.gradescope.com/article/gi7gm49peg-student-add-course). <font color="green">Course Code: TBD</font>. 
   - [Additional resources for students](https://help.gradescope.com/category/cyk4ij2dwi-student-workflow)
 
 
@@ -70,82 +82,7 @@ It is important that students bring a certain ragamuffin[^ragamuffin], barefoot 
 
 ## Classroom Sessions
 
-Group work has been shown to enhance professional behaviors and job preparedness, particularly building communication and team
-management skills (Cartwright et al., 2021[^Cartwright]; Senay, 2015[^Senay]).
 
-[^Cartwright]: Cartwright, N.M., Patil, P., Liddle, D.M., Newton, G., and Monk, J.M. Enhancement of Professional Behaviours and
-Perceptions of Critical Skill Job Preparedness through the Use of a Group Work Contract in Fourth-Year
-Nutritional Science Students. Int. J. High. Educ. 10, 2021.
-
-[^Senay]: Senay, S. (2015). On the impacts of project based learning for workplace preparedness of engineering graduates. In
-10th System of Systems Engineering Conference, (Institute of Electrical and Electronics Engineers Inc.), pp.
-364–367.
-
-Classroom format:
-1. Students are expected to work collaboratively, generally in groups of three or four.
-2. The students work on the activity during class time with a facilitator present.
-3. The dominant mode of instruction is not lecture or instructor-centered; the instructor serves predominantly as a facilitator of student learning.
-4. Students have assigned (rotating) roles within their groups.
-5. The activities are designed to draw on your past knowledge and critical thinking skills to introduce terms and concepts. You won't necessarily "know the answers" before you start. 
-6. Groups are expected to complete all of the Questions during class. There may be additional exercises or problems expected to be completed outside of class.
-
-For group in-class work, specific roles are:[^roles-details]
-- scribe
-- liason
-- facilitator
-- researcher
-
-At least one person from each group needs to bring a computer or tablet (or similar) to class. If this is not possible, please discuss with me so that I can help. 
-
-
-[^roles-details]: Details of the roles:
-    - scribe
-      - Records the names and roles of the group members at the beginning of each activity.
-      - Records the important aspects of group discussions, observations, insights, etc.
-        - “This seems like an important conclusion. Let’s stop for a minute so I can get this into our report.”
-        - “That was a great insight. Do you mind (name) if I quote you in our group’s report?”
-      - The recorder’s report is a log of the important concepts that the group has learned.
-    - speaker/presenter/liason
-      - Communicates team questions and clarifications with the teacher or other teams.
-    (This is the only team member designated to do so.)
-        - “Our team is confused about how _____ relates to _____.”
-        - “Our team reached consensus that the answer to number _____ was ______.”
-      - Ensures all team members have had a chance to respond before asking outside sources.
-        - “Does anyone in our team know the answer to _______?”
-        - “Before we ask the teacher, could someone clarify the answer to….”
-      - Ensures that everyone in the team agrees on what to ask if an outside source is needed.
-        - “Does everyone agree we need to find out . . . ?”
-      - Presents conclusions of the team to the class, as requested.
-        - “The reasoning we used to answer number ______ was . . .”
-    - manager/facilitator
-      - Make sure team starts quickly and remains focused during the activity.
-        - Assign tasks for collecting and distributing materials as needed.
-        - Assign roles like calculator or significant figure checker.
-        - “I think we have everything, are we ready to begin?”
-      - Takes care of time management.
-        - Keep an eye on the clock.
-        - Keep team moving forward and communicate about discussion deadlines.
-        - “I think we need to focus on _______ so we complete this section on time.”
-        - “We have _____ minutes before we need to discuss this. Let’s get this done.”
-      - Make sure all voices in the team are heard.
-        - Address team members by name and ensure that everyone contributes.
-        - Assign different members to read sections of activity on a rotating basis.
-        - “(Name), what do you think about . . . .?”
-        - “I would like to hear what you think, (name).”
-    - researcher/reflector/strategy analyst/observer
-      - Guides consensus-­‐building process; team must agree on responses to questions.
-        - “Would you all agree that _____ is a good answer for question number _____?”
-        - “Could you please rephrase what you just said?”
-        - “Is your answer completely supported by your explanation?”
-        - “Would that response make sense to someone from another team?”
-      - Observes team dynamics and behavior with respect to the learning process.
-        - Is everyone in the team participating?
-        - Are team members listening carefully to each other?
-        - Are team members being patient and respectful of each other?
-      - Reports to the team periodically during the activity on how the team performs.
-        - “Let’s stop for a minute. I have a couple comments on what we are doing well and a suggestion on how we could be more productive.”
-        - “Let’s wait for (name) to catch up before we move on.”
-      - Runs internet queries to help progress group discussion if it gets stuck
 
 **Identity**
 Class rosters are provided to the instructor with the student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. Please advise me of this preference early in the semester so that I may make appropriate changes to my records.
@@ -163,16 +100,38 @@ All graded work will be handed in via Gradescope.
 :align: center
 :::
 
-**<font color="green">Weekly In-Class Work</font>** *20%*  
-Due each Friday by midnight. Each week the group scribe (a rotating role) will be responsible for uploading the work that your group did in class (this can include consulting the manager to deligate task completion if necessary). The purpose of the in-class work is to enable you to develop concepts and deepen your understanding of those concepts through exploration and discussion. Interactions among students and between students and the instructor are intentionally assessment-oriented (not *evaluative*). This work will be graded either **0:missing**, **1:incomplete**, **2:complete *but***, or **3:complete**. Your final score at the end of the semester will reflect a cumulative sum of your scores on each submission. Added to this score will be CR/U for any in-class assessments. 
+**<font color="green">Classroom Sessions</font>** *10%*  
+Attendance and participation. 
 
-**<font color="orange">Cumulative Exam</font>** *60%*  
-[Due (approximately) every other week by Monday at midnight](../assessment-sum/cumulative-exam). Instead of one or two big exams, you will have smaller bi-weekly assignments. The points you earn on each of these assignments will be tallied toward your total exam score for the semester. The due dates may be subject to change if there are major shifts in the daily schedule due to the differing needs of each particular class as your unique class moves through the material. The due dates are listed in the [Cumulative Exam tab](../assessment-sum/cumulative-exam).
+**<font color="orange">Editorials</font>** *70%*  
+The due dates are listed in the [Editorials tab](../editorials/editorials-general-info).
 
 **<font color="purple">Capstone</font>** *20%*  
-Due by midnight on the first day of final exams (Dec 13). Your work throughout the semester builds toward your [Capstone assignment](../assessment-sum/capstone): a media project (written, audio, video, etc) that summarizes the current scientific understanding of a specific animal behavior through Tinbergen's four levels of analysis: ontogeny, mechanism, phylogeny and adaptive value.  
+Due by midnight on the first day of final exams (TBD). Your work throughout the semester builds toward your [Capstone assignment](../capstone/capstone-general-info). This is your roadmap through the course that constitutes a demonstration of learning. You will integrate figures from throughout the course to show how concepts fit together and conceptual milestones that you achieved throughout the semester.
+  
 
 ***Attendence*** in classroom sessions is mandatory. If unforseeable emergency comes up, please reach out as soon as possible so that we can make a plan.  
+
+In general, you can refer to the following general guidelines to gauge your expected grade in the course:
+> “F” work results from minimal effort and attendance. Absence from classroom sessions even if assignments were completed.  
+  “D” work shows insufficient levels of understanding. With no effort to remedy misunderstandings. Writing and presentation of material is disorganized and unclear and/or incomplete.   
+  “C” work shows a basic level of understanding. The bare minimum required has been addressed, but there is minimal effort toward personal exploration of the material. Work generally contains errors and is kind of disorganized, even though correct elements are included.   
+  “B” work shows a very good understanding of the concepts and demonstrates logical thinking. Not much independent synthesis and extension of the material beyond what was directly discussed in class.  
+  “A” work shows excellent grasp of the concepts and the importance of the topic and demonstrates clear logical thinking and reasoning. Writing and presentation of material is clear and concise and grabs the reader’s attention. It stimulates the reader to learn more to enhance their understanding of the subject. Information is used synthetically to make one or more original connections with/among course topics.  
+
+
+
+:::{epigraph}
+Education is not the learning of facts, but the training of the mind to think.
+
+-- Albert Einstein 
+:::
+
+:::{epigraph}
+The mind is not a vessel that needs filling, but wood that needs igniting.
+
+-- Plutarch 
+:::
 
 
 ## Other

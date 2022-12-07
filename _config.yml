@@ -1,10 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Comparative Animal Behavior
+title: Neurobiology of Movement
 author: Dr. Krista Perks
 copyright: "2022"  # Copyright year to be placed in the footer
-logo: images/Moffett-ants.jpg
+logo: images/juggling-header.jpeg
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 only_build_toc_files: true
 
@@ -25,7 +25,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/neurologic/Comparative-Animal-Behavior  # Online location of your book
+  url: https://github.com/neurologic/Neurobiology-Movement  # Online location of your book
   branch: main  # Which branch of the repository should be used when creating links (optional)
 html:
   use_issues_button: true
