@@ -13,11 +13,14 @@ parts:
         - file: editorials/editorials-guidelines
     - file: capstone/capstone-general-info
       sections:
-        - file: editorials/capstone-guidelines
+        - file: capstone/capstone-guidelines
     - file: genindex
   - caption: Static Content
     chapters:
     - file: markdown/introduction
+    - file: markdown/anatomy
+    - file: markdown/kinematics
+    - file: markdown/movement-control_antagonists-reflex
   - caption: Interactive Notebooks
     chapters:
     - file: notebooks/NotebookColab_Introduction

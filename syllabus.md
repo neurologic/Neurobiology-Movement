@@ -93,12 +93,12 @@ In preparation for class, complete any "Assignments" listed in the [Schedule](..
 ## Grading
 All graded work will be handed in via Gradescope.
 
-:::{image} /images/grading-distribution.png
+<!-- :::{image} /images/grading-distribution.png
 :alt: fishy
 :class: bg-primary mb-1
 :width: 700px
 :align: center
-:::
+::: -->
 
 **<font color="green">Classroom Sessions</font>** *10%*  
 Attendance and participation. 
