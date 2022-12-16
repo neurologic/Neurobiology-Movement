@@ -14,13 +14,17 @@ parts:
     - file: capstone/capstone-general-info
       sections:
         - file: capstone/capstone-guidelines
-    - file: genindex
+    # - file: genindex
   - caption: Static Content
     chapters:
     - file: markdown/introduction
     - file: markdown/anatomy
     - file: markdown/kinematics
     - file: markdown/movement-control_antagonists-reflex
+    - file: markdown/neuro-muscle-coding
+    - file: markdown/strength-coordination
+    - file: markdown/cells-circuits
   - caption: Interactive Notebooks
     chapters:
     - file: notebooks/NotebookColab_Introduction
+    - file: notebooks/NotebookColab_Kinematics_WBDSdataset

@@ -9,12 +9,12 @@ The *Pages* column contains links to materials we will use during class that day
 | **Date** | **Topic** | **Assignments** | **In-Class Page(s)** |
 |---|---|---|---|
 | **Jan 30** | Welcome and Introduction | none | [](../welcome) <br> [](../syllabus) <br> [](../markdown/introduction) |
-| Jan 1 | Anatomy | [Basic Neuroanatomy](https://docs.google.com/document/d/1DCEwj_vyvqAOwF4KxUMF8B0g12rNVqojValIn0Q280A/edit?usp=sharing) |  |
-| **Feb 6** | Movement | [Kinematics](https://en.wikipedia.org/wiki/Study_of_animal_locomotion) |  |
-| Feb 8 | *Movement* Control: Antagonists and Reflex Circuits | [Neuronal control of leech behavior](https://doi.org/10.1016/j.pneurobio.2005.09.004): Figure 1, Figure 2, Section 3.2 Local Bending;<br> [Motor Cortex Connectivity](https://docs.google.com/document/d/12puKAiu90K6ykvWV69k-gCR1_jlqoWdrL3yQV18WtHo/edit?usp=sharing) |  |
-| **Feb 13** | Muscle Coding Principles |  |  |
-| Feb 15 | Neural Coding Principles |  |  |
-| **Feb 20** | Cells and Circuits | [Cell Types](https://colab.research.google.com/github/neurologic/MotorSystems_BIOL358_SP22/blob/main/NotebookColab_CellTypes_InquiryAndAnalysis.ipynb) |  |
+| Jan 1 | Anatomy | [Basic Neuroanatomy](https://docs.google.com/document/d/1DCEwj_vyvqAOwF4KxUMF8B0g12rNVqojValIn0Q280A/edit?usp=sharing) | [](../markdown/anatomy) |
+| **Feb 6** | Movement | [Kinematics](https://en.wikipedia.org/wiki/Study_of_animal_locomotion) | [](../markdown/kinematics) |
+| Feb 8 | *Movement* Control: Antagonists and Reflex Circuits | [Neuronal control of leech behavior](https://doi.org/10.1016/j.pneurobio.2005.09.004): Figure 1, Figure 2, Section 3.2 Local Bending;<br> [Motor Cortex Connectivity](https://docs.google.com/document/d/12puKAiu90K6ykvWV69k-gCR1_jlqoWdrL3yQV18WtHo/edit?usp=sharing) | [](../markdown/movement-control_antagonists-reflex) |
+| **Feb 13** | NeuroMuscular Coding |  | [](../markdown/neuro-muscle-coding) |
+| Feb 15 | Strength or Coordination |  | [](../markdown/strength-coordination) |
+| **Feb 20** | Cells and Circuits | [Cell Types](cell-types-class-prep) | [](../markdown/cells-circuits)  |
 | Feb 22 | *Action* Control: **CPGs** | [Central pattern generators and the control of rhythmic movements](https://doi.org/10.1016/s0960-9822%2801%2900581-4) (stop before "neuromodulators");<br> [Reciprocal Inhibition and Postinhibitory Rebound Produce Reverberation in a Locomotor Pattern Generator](https://doi.org/10.1126/science.229.4711.402) |  |
 | **Feb 27** | *Action* Control: **CPGs** | [Central pattern generators and the control of rhythmic movements](https://doi.org/10.1016/s0960-9822%2801%2900581-4): "Coupling and Coordination" (pages R991-993);<br> [How the brainstem controls orofacial behaviors comprised of rhythmic actions](https://doi.org/10.1016/j.tins.2014.05.001) |  |
 | March 1 | Orienting and Action: Tectum | [The tectum/superior colliculus as the vertebrate solution for spatial sensory integration and action](https://doi-org.ezproxy.wesleyan.edu/10.1016/j.cub.2021.04.001) |  |
