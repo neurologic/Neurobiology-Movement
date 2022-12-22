@@ -22,8 +22,9 @@ parts:
     - file: markdown/kinematics
     - file: markdown/movement-control_antagonists-reflex
     - file: markdown/neuro-muscle-coding
-    - file: markdown/strength-coordination
     - file: markdown/cells-circuits
+    - file: markdown/strength-coordination
+    - file: markdown/action-control-motor-cortex
   - caption: Interactive Notebooks
     chapters:
     - file: notebooks/NotebookColab_Introduction

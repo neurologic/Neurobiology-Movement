@@ -14,7 +14,8 @@ Movement is the result of the intersection between the bodily affordances and th
 
 ## Kinematics and Kinetics Data Exploration
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vT6-NjQI9Vqde9vHydBIce_OqelHHu6CokH4vWmkKkCxUPATm3_JcrnrcGArTTdpkEyDcwwmxlj_yJK/pub?embedded=true"></iframe>
+<iframe src="https://drive.google.com/file/d/1MOZ65GcNQDff_JYglV8c8l63RlcalzuaWj6AT0-x0Qs/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 ## Additional Resources
 
