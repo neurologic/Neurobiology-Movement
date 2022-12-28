@@ -23,7 +23,9 @@ For example, "cramps" during loaded movement (try hip flexor raises while sittin
 - [Sale D. G. (1988). Neural adaptation to resistance training. Medicine and science in sports and exercise, 20(5 Suppl), S135–S145. ](https://doi.org/10.1249/00005768-198810001-00009)
 - [Aagaard, Per. Training-Induced Changes in Neural Function. Exercise and Sport Sciences Reviews 31(2):p 61-67, April 2003.]
 - [The Hoffmann reflex: A means of assessing spinal reflex excitability and its descending control in man](https://doi.org/10.1016/0301-0082(87)90007-4)
-- [Assessment of Neuroplasticity With Strength Training](https://doi.org/10.1249/JES.0000000000000229)
+- [**Assessment of Neuroplasticity With Strength Training**](https://doi.org/10.1249/JES.0000000000000229)
 - [Fusimotor Drive May Adjust Muscle Spindle Feedback to Task Requirements in Humans](https://doi.org/10.1152/jn.91041.2008)
 - [Effect of exercise on the motor unit](https://doi.org/10.1002/mus.880090203)
 - [Effects of exercise training on alpha-motoneurons](https://journals.physiology.org/doi/pdf/10.1152/japplphysiol.00482.2006)
+- [Mrachacz-Kersting, N., Stevenson, A.J.T. & Ziemann, U. Short-interval intracortical inhibition and facilitation targeting upper and lower limb muscles. Sci Rep 11, 21993 (2021). ](https://doi.org/10.1038/s41598-021-01348-6)
+- [**Mechanisms and functional implications of motoneuron adaptations to increased physical activity**](https://doi.org/10.1139/apnm-2018-0185)
