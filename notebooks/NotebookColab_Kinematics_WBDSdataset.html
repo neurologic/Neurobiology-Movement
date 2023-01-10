@@ -1,0 +1,1018 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinematics &#8212; Neurobiology of Movement</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Introduction to Colab Notebooks" href="NotebookColab_Introduction.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/juggling-header.jpeg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Neurobiology of Movement</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../welcome.html">
+   Welcome
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  General
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../syllabus.html">
+   Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../schedule.html">
+   Schedule
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../editorials/editorials-general-info.html">
+   Editorials
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../editorials/editorials-guidelines.html">
+     Guidelines
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../capstone/capstone-general-info.html">
+   Capstone
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../capstone/capstone-guidelines.html">
+     Guidelines
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Static Content
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/introduction.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/anatomy.html">
+   Anatomy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/kinematics.html">
+   Kinematics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/movement-control_antagonists-reflex.html">
+   <em>
+    Movement
+   </em>
+   Control: Antagonists and Reflex Circuits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/neuro-muscle-coding.html">
+   NeuroMuscular Coding
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/cells-circuits.html">
+   Cells and Circuits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/strength-coordination.html">
+   Strength or Coordination
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/action-control-motor-cortex.html">
+   Action Control: Motor Cortex
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Interactive Notebooks
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="NotebookColab_Introduction.html">
+   Introduction to Colab Notebooks
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Kinematics
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebooks/NotebookColab_Kinematics_WBDSdataset.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/neurologic/Neurobiology-Movement"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/neurologic/Neurobiology-Movement/issues/new?title=Issue%20on%20page%20%2Fnotebooks/NotebookColab_Kinematics_WBDSdataset.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/neurologic/Neurobiology-Movement/main?urlpath=tree/notebooks/NotebookColab_Kinematics_WBDSdataset.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/neurologic/Neurobiology-Movement/blob/main/notebooks/NotebookColab_Kinematics_WBDSdataset.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="../_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Kinematics
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#some-necessary-preparatory-steps">
+   2) Some necessary preparatory steps.
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#select-which-raw-data-who-where-how-fast">
+   3) Select which raw data (who, where, how fast?).
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#raw-data-analysis-menu">
+     Raw data analysis menu:
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#explore-the-raw-kinematics-data">
+   4) Explore the raw kinematics data
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#explore-ground-reaction-force-data">
+   5) Explore ground reaction force data
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#create-plots-of-trial-data">
+     Create plots of trial data.
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#analyze-time-normalized-processed-data">
+   7) Analyze time-normalized processed data
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-which-data-you-want-to-examine-who-where-how-fast">
+     Select which data you want to examine (who, where, how fast?).
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#nice-work">
+     NICE WORK!
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Kinematics</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Kinematics
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#some-necessary-preparatory-steps">
+   2) Some necessary preparatory steps.
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#select-which-raw-data-who-where-how-fast">
+   3) Select which raw data (who, where, how fast?).
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#raw-data-analysis-menu">
+     Raw data analysis menu:
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#explore-the-raw-kinematics-data">
+   4) Explore the raw kinematics data
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#explore-ground-reaction-force-data">
+   5) Explore ground reaction force data
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#create-plots-of-trial-data">
+     Create plots of trial data.
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#analyze-time-normalized-processed-data">
+   7) Analyze time-normalized processed data
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#select-which-data-you-want-to-examine-who-where-how-fast">
+     Select which data you want to examine (who, where, how fast?).
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#nice-work">
+     NICE WORK!
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <p><a href="https://colab.research.google.com/github/neurologic/MotorSystems_BIOL358_SP22/blob/main/NotebookColab_Kinematics_WBDSdataset.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<div class="tex2jax_ignore mathjax_ignore section" id="kinematics">
+<h1>Kinematics<a class="headerlink" href="#kinematics" title="Permalink to this headline">¶</a></h1>
+<p>(<a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a>)</p>
+<p>Kinematics is the study and quantification of how objects move. In this notebook you will explore a dataset from <a class="reference external" href="https://peerj.com/articles/4640/">Fukuchi et al (2018)</a> in which markers placed at specific locations along the body were tracked during walking (either overland or on a treadmill). Note that the nomenclature for the marker points in this dataset vary slightly from <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0966636207000124?via%3Dihub">the marker placement resource</a>  referenced in Fukuchi et al (2018). See marker key in slides from class. Force plates were used to quantify ground contact forces during walking (“kinetics”).</p>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="some-necessary-preparatory-steps">
+<h1>2) Some necessary preparatory steps.<a class="headerlink" href="#some-necessary-preparatory-steps" title="Permalink to this headline">¶</a></h1>
+<p>(<a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a>)</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown &lt;b&gt;TASK: &lt;/b&gt; RUN this cell to set up the notebook (import packages, etc)</span>
+<span class="c1"># In Python, anything with a &quot;#&quot; in front of it is code annotation,</span>
+<span class="c1"># and is not read by the computer.</span>
+<span class="c1"># You can run a cell (this box) by pressing ctrl-enter or shift-enter.</span>
+<span class="c1"># You can also run a cell by clicking the play button in the menu bar </span>
+<span class="c1"># at the top of the page (single right arrow, not double).</span>
+<span class="c1"># Click in this cell and then press shift and enter simultaneously.</span>
+<span class="c1"># This print function below allows us to generate a message.</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Nice work!&#39;</span><span class="p">)</span>
+
+<span class="c1"># No need to edit anything in this code cell</span>
+<span class="c1">#################################</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">ndimage</span>
+<span class="kn">from</span> <span class="nn">scipy.signal</span> <span class="kn">import</span> <span class="n">find_peaks</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="kn">import</span> <span class="n">deepcopy</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">PCA</span>
+<span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">KMeans</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">plotly.subplots</span> <span class="kn">import</span> <span class="n">make_subplots</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">from</span> <span class="nn">scipy.signal</span> <span class="kn">import</span> <span class="n">hilbert</span><span class="p">,</span><span class="n">medfilt</span><span class="p">,</span><span class="n">resample</span>
+<span class="kn">from</span> <span class="nn">scipy.io</span> <span class="kn">import</span> <span class="n">wavfile</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">PCA</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span><span class="n">timezone</span><span class="p">,</span><span class="n">timedelta</span>
+<span class="n">pal</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">color_palette</span><span class="p">(</span><span class="n">n_colors</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+<span class="n">pal</span> <span class="o">=</span> <span class="n">pal</span><span class="o">.</span><span class="n">as_hex</span><span class="p">()</span>
+
+
+<span class="n">datafolder</span> <span class="o">=</span> <span class="s2">&quot;/content/drive/Shareddrives/BIOL358/Data/WBDSascii&quot;</span>
+<span class="c1"># datafolder = &quot;/content/drive/MyDrive/Classroom/BIOL358: Motor Systems/Data/WBDSascii&quot;</span>
+<span class="c1"># datafolder = &#39;/Users/kperks/OneDrive - wesleyan.edu/Teaching/MotorSystems_SP22/Data/WBDSascii/&#39;</span>
+
+<span class="n">fs_grf</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="n">fs_mkr</span> <span class="o">=</span> <span class="mi">150</span>
+
+<span class="k">def</span> <span class="nf">cart2pol</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">rho</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">phi</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arctan2</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">rho</span><span class="p">,</span> <span class="n">phi</span><span class="p">)</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown &lt;b&gt;TASK: &lt;/b&gt; RUN this cell to mount your Google Drive, where you will access the raw data from.</span>
+<span class="c1">#@markdown &gt; Follow all instructions as prompted by pop-ups.</span>
+<span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="select-which-raw-data-who-where-how-fast">
+<h1>3) Select which raw data (who, where, how fast?).<a class="headerlink" href="#select-which-raw-data-who-where-how-fast" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a></p>
+<p>Choose a person, environment, and speed (note different selection options based on the environment chosen).</p>
+<blockquote>
+<div><p><b> TASK (<em>one time per active notebook session</em>): </b> Run the code cell below to activate the dropdown menus for selection.</p>
+<blockquote>
+<div><p>NOTE: you should only need to run the code cell below once per active colab session to activate the dropdown menus. If you can change your selections, it is activated. You can change your selections at any time and load your selection using the <a class="reference external" href="#scrollTo=Hw0TwgunODC-">Load Dataset</a> code cell.</p>
+</div></blockquote>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown Activate Dropdown Menus if needed.</span>
+ 
+<span class="n">w_subj</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select person (01-42)&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="nb">format</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="s1">&#39;02d&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">43</span><span class="p">,</span><span class="mi">1</span><span class="p">)],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select person (01-42)&#39;</span><span class="p">,</span>
+    <span class="c1"># rows=10,</span>
+    <span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">w_env</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select environment&#39;</span><span class="p">,</span><span class="s1">&#39;Overland&#39;</span><span class="p">,</span><span class="s1">&#39;Treadmill&#39;</span><span class="p">],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select environment&#39;</span><span class="p">,</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">w_Ospeed</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select speed for overland&#39;</span><span class="p">,</span><span class="s1">&#39;Comfortable&#39;</span><span class="p">,</span><span class="s1">&#39;Fast&#39;</span><span class="p">,</span><span class="s1">&#39;Slow&#39;</span><span class="p">],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select speed for overland&#39;</span><span class="p">,</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">w_Tspeed</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select speed for treadmill (01-08)&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="nb">format</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="s1">&#39;02d&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">)],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select speed for treadmill (01-08)&#39;</span><span class="p">,</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_subj</span><span class="p">,</span><span class="n">w_env</span><span class="p">,</span><span class="n">w_Ospeed</span><span class="p">,</span><span class="n">w_Tspeed</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Dropdowns generated at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Once you have made your selection, then load the dataset.</p>
+<p><b> TASK: </b> Run the code cell below to load the dataset <a class="reference external" href="#scrollTo=edbebb54-81d1-4cc7-a4ab-70ecf17c11e5">you selected above</a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown ## **Load Dataset**</span>
+<span class="c1">#@markdown &gt;Note: If you change your dataset selections above, re-run this cell.</span>
+<span class="c1">#@markdown You only need to load each dataset once, </span>
+<span class="c1">#@markdown You can make new Kinematics and Kinetics selections from the menus</span>
+<span class="c1">#@markdown below without re-running this cell. </span>
+
+<span class="k">if</span> <span class="n">w_env</span><span class="o">.</span><span class="n">value</span><span class="o">==</span><span class="s1">&#39;Overland&#39;</span><span class="p">:</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">w_Ospeed</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">trial</span> <span class="o">=</span> <span class="s1">&#39;01&#39;</span>
+<span class="k">if</span> <span class="n">w_env</span><span class="o">.</span><span class="n">value</span><span class="o">==</span><span class="s1">&#39;Treadmill&#39;</span><span class="p">:</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">w_Tspeed</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">trial</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+<span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;WBDS&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">w_subj</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;walk&#39;</span> <span class="o">+</span> <span class="n">w_env</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">trial</span> <span class="o">+</span> <span class="n">speed</span> 
+
+<span class="n">filepath</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">datafolder</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">filename</span> <span class="o">+</span> <span class="s1">&#39;mkr.txt&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">filepath</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+    <span class="n">dataframe</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Kinematic Data loaded at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="k">if</span> <span class="n">filepath</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span><span class="o">==</span><span class="kc">False</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Data selection does not exist. Check selections and correct errors.&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task not yet completed, but cell ran at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>    
+
+<span class="n">filepath_grf</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">datafolder</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">filename</span> <span class="o">+</span> <span class="s1">&#39;grf.txt&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">filepath_grf</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+    <span class="n">grf_trial</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath_grf</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">grf_trial</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">]</span><span class="o">/=</span><span class="n">fs_grf</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Kinetic Data loaded at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="k">if</span> <span class="n">filepath_grf</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span><span class="o">==</span><span class="kc">False</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Data selection does not exist. Check selections and correct errors.&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task not yet completed, but cell ran at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="n">w_markers</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectMultiple</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">columns</span><span class="p">)[</span><span class="mi">1</span><span class="p">:],</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="n">w_fp</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectMultiple</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">grf_trial</span><span class="o">.</span><span class="n">columns</span><span class="p">)[</span><span class="mi">1</span><span class="p">:],</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Select which kinematics variables you want to plot from the following list:&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_markers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Select which kinetic variables you want to plot from the following list:&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_fp</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Dropdown menus created at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="raw-data-analysis-menu">
+<h2>Raw data analysis menu:<a class="headerlink" href="#raw-data-analysis-menu" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>With the selections you have made above, you can:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference external" href="#scrollTo=31d41f94-24df-4420-ac7d-639a2b48b37e">4) Explore the raw kinematics data</a></p></li>
+<li><p><a class="reference external" href="#scrollTo=80923d9b-7946-40ec-b795-838718d7a116">5) Explore the ground reaction force data from treadmill environments</a></p></li>
+<li><p><a class="reference external" href="#scrollTo=iR6gql9Ba4NT">6) Identify individual gait cycle trials</a> and</p>
+<ul>
+<li><p><a class="reference external" href="#scrollTo=4N8i5DBwchGM">create plots of gait cycle trials</a> for: <a class="reference external" href="#scrollTo=3EApNSSgr3vu">kinetic</a> and <a class="reference external" href="#scrollTo=FHFS8FMxd1jv">kinematic</a> variables.</p></li>
+</ul>
+</li>
+</ul>
+<p><a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a></p>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="explore-the-raw-kinematics-data">
+<h1>4) Explore the raw kinematics data<a class="headerlink" href="#explore-the-raw-kinematics-data" title="Permalink to this headline">¶</a></h1>
+<p>(<a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a>)</p>
+<p>(<a class="reference external" href="#scrollTo=RFTAKrAzZ2jN">Return to Raw Data Analysis Menu</a>)</p>
+<p><strong>TASK:</strong> Run the cell below to plot the <a class="reference external" href="#scrollTo=Hw0TwgunODC-">selected kinematics variables</a> for your <a class="reference external" href="#scrollTo=edbebb54-81d1-4cc7-a4ab-70ecf17c11e5">selected dataset</a>. You can select different kinematics variables and re-make the plot as many times as you want.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown **Plot Selected Kinematic Variables**</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_markers</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">marker</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">w_markers</span><span class="o">.</span><span class="n">value</span><span class="p">):</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">marker</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="n">marker</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_markers</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Need to select markers to plot&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task not completed yet, but cell run at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+    
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="s2">&quot;time(seconds)&quot;</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;position (centimeters)&#39;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="explore-ground-reaction-force-data">
+<h1>5) Explore ground reaction force data<a class="headerlink" href="#explore-ground-reaction-force-data" title="Permalink to this headline">¶</a></h1>
+<p>(<a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a>)</p>
+<p>(<a class="reference external" href="#scrollTo=RFTAKrAzZ2jN">Return to Raw Data Analysis Menu</a>)</p>
+<p><strong>TASK:</strong> Go back to <a class="reference external" href="#scrollTo=edbebb54-81d1-4cc7-a4ab-70ecf17c11e5">modify your dataset selections (step 3)</a> so that you have data from a Treadmill environment. Don’t forget to also <a class="reference external" href="#scrollTo=Hw0TwgunODC-">load the dataset (step3)</a>. Select a subset of ground force measurements to examine. Run the cell below to plot your selection.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown **Plot the ground reaction force measurements you selected.**</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_fp</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">fp</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">w_fp</span><span class="o">.</span><span class="n">value</span><span class="p">):</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">grf_trial</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">grf_trial</span><span class="p">[</span><span class="n">fp</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="n">fp</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Plot created at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_fp</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Need to select markers to plot&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task not completed, but cell run at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="s2">&quot;time(seconds)&quot;</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;force&#39;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>#6) Identify individual gait cycle trials
+(<a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a>)</p>
+<p>(<a class="reference external" href="#scrollTo=RFTAKrAzZ2jN">Return to Raw Data Analysis Menu</a>)</p>
+<p><b>TASK: </b> Based on the ground force measurements you <a class="reference external" href="#scrollTo=497d8d55-d565-4e1a-a54e-c7da8ba2d772">plotted above</a>, determine 3 trial start times to start. Each trial is a single gait cycle.</p>
+<blockquote>
+<div><p>Note that the treadmill environment data contains more gait cycles.</p>
+</div></blockquote>
+<p>In the code cell below, there is a form with spots to create a list of trial start times and assign a variable for the approximate gait cycle period. Single click just above the line (or highlight the text) to edit the form entries. After filling in the necessary information, run the code cell to store the information into temporary memory.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown &lt;b&gt;TASK: &lt;/b&gt; Type a list of trial times below. </span>
+<span class="c1">#@markdown &gt;The formatting of the list must be trial start times (in seconds)</span>
+<span class="c1">#@markdown separated by commas. The whole list must be surrounded by hard brackets. </span>
+<span class="c1">#@markdown For example: ```[1.24,5.67,8.98]```</span>
+<span class="n">trials</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span><span class="p">]</span> <span class="c1">#@param {type:&quot;raw&quot;}</span>
+
+<span class="c1">#@markdown &lt;b&gt;TASK: &lt;/b&gt; Type the gait cycle period below (in seconds). </span>
+<span class="n">period</span> <span class="o">=</span>  <span class="kc">None</span><span class="c1">#@param {type:&quot;number&quot;}</span>
+
+<span class="c1">#@markdown &lt;b&gt;TASK: &lt;/b&gt; After you have created a list of start times </span>
+<span class="c1">#@markdown and specified a period, run this cell to store the values in memory for the next task. </span>
+
+<span class="n">offset</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">persamps</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">period</span><span class="o">*</span><span class="n">fs_grf</span><span class="p">)</span><span class="o">+</span><span class="nb">int</span><span class="p">(</span><span class="n">offset</span><span class="o">*</span><span class="n">fs_grf</span><span class="p">)</span>
+<span class="n">trial_inds</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">((</span><span class="n">t</span><span class="o">-</span><span class="n">offset</span><span class="p">)</span><span class="o">*</span><span class="n">fs_grf</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trials</span><span class="p">]</span>
+<span class="n">xtime</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="n">offset</span><span class="p">,</span><span class="n">period</span><span class="p">,</span><span class="n">persamps</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Tasks completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="create-plots-of-trial-data">
+<h2>Create plots of trial data.<a class="headerlink" href="#create-plots-of-trial-data" title="Permalink to this headline">¶</a></h2>
+<p>(<a class="reference external" href="#scrollTo=RFTAKrAzZ2jN">Return to Raw Data Analysis Menu</a>)</p>
+<p><strong>TASK:</strong> Go back to <a class="reference external" href="#scrollTo=Hw0TwgunODC-">select kinematic and kinetic variables</a> from the dataset to examine on the trials <a class="reference external" href="#scrollTo=1814abac-ca52-4ddb-8490-b131456a3eba">you specified above</a>. Run the cells below to plot your selections.</p>
+<blockquote>
+<div><p>You can change the values listed for “trials” and “period” and re-make the plots below at any time.
+NOTE: if you change the trial times or period, you need to <a class="reference external" href="#scrollTo=1814abac-ca52-4ddb-8490-b131456a3eba">re-run that cell</a> before re-running the plotting code cells below.</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown Plot the kinetic measurements on each trial specified.</span>
+
+<span class="n">offset</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">persamps</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">period</span><span class="o">*</span><span class="n">fs_grf</span><span class="p">)</span><span class="o">+</span><span class="nb">int</span><span class="p">(</span><span class="n">offset</span><span class="o">*</span><span class="n">fs_grf</span><span class="p">)</span>
+<span class="n">trial_inds</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">((</span><span class="n">t</span><span class="o">-</span><span class="n">offset</span><span class="p">)</span><span class="o">*</span><span class="n">fs_grf</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trials</span><span class="p">]</span>
+<span class="n">xtime</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="n">offset</span><span class="p">,</span><span class="n">period</span><span class="p">,</span><span class="n">persamps</span><span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_fp</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">fp</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">w_fp</span><span class="o">.</span><span class="n">value</span><span class="p">):</span>
+      <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trial_inds</span><span class="p">:</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xtime</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">grf_trial</span><span class="p">[</span><span class="n">fp</span><span class="p">][</span><span class="n">t</span><span class="p">:</span><span class="n">t</span><span class="o">+</span><span class="n">persamps</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="n">fp</span><span class="o">+</span><span class="s1">&#39; at trial &#39;</span> <span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">t</span><span class="o">/</span><span class="n">fs_grf</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="n">offset</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_fp</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Need to select markers to plot&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task not completed, but cell run at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="s2">&quot;time(seconds)&quot;</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;force&#39;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>(<a class="reference external" href="#scrollTo=RFTAKrAzZ2jN">Return to Raw Data Analysis Menu</a>)</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown Plot the kinematics measurements on each trial specified.</span>
+
+<span class="n">offset</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">persamps</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">period</span><span class="o">*</span><span class="n">fs_mkr</span><span class="p">)</span><span class="o">+</span><span class="nb">int</span><span class="p">(</span><span class="n">offset</span><span class="o">*</span><span class="n">fs_mkr</span><span class="p">)</span>
+<span class="n">trial_inds</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">((</span><span class="n">t</span><span class="o">-</span><span class="n">offset</span><span class="p">)</span><span class="o">*</span><span class="n">fs_mkr</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trials</span><span class="p">]</span>
+<span class="n">xtime</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="n">offset</span><span class="p">,</span><span class="n">period</span><span class="p">,</span><span class="n">persamps</span><span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_markers</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">marker</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">w_markers</span><span class="o">.</span><span class="n">value</span><span class="p">):</span>
+      <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trial_inds</span><span class="p">:</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">xtime</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">marker</span><span class="p">][</span><span class="n">t</span><span class="p">:</span><span class="n">t</span><span class="o">+</span><span class="n">persamps</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">marker</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39; at trial &#39;</span> <span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">t</span><span class="o">/</span><span class="n">fs_mkr</span><span class="p">,</span><span class="mi">2</span><span class="p">))))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_markers</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Need to select markers to plot&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Task not completed, but cell run at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="s2">&quot;time(seconds)&quot;</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;force&#39;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>(<a class="reference external" href="#scrollTo=RFTAKrAzZ2jN">Return to Raw Data Analysis Menu</a>)</p>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="analyze-time-normalized-processed-data">
+<h1>7) Analyze time-normalized processed data<a class="headerlink" href="#analyze-time-normalized-processed-data" title="Permalink to this headline">¶</a></h1>
+<p>(<a class="reference external" href="#scrollTo=Y1JpSgWhMmRs">Return to Table of Contents</a>)</p>
+<p>Ok. Now that you have a sense of the data, let’s look at time-normalized processed data.</p>
+<div class="section" id="select-which-data-you-want-to-examine-who-where-how-fast">
+<h2>Select which data you want to examine (who, where, how fast?).<a class="headerlink" href="#select-which-data-you-want-to-examine-who-where-how-fast" title="Permalink to this headline">¶</a></h2>
+<p>From the menus in the cell below, choose a person, environment, and speed (note different selection options based on the environment chosen).</p>
+<p>In this step, the data that you will explore is trial-averaged measurements (the average across trials for each. The data is “time-normalized” so that the kinematics and kinetics are a function of the gait cycle (from start to stop - 0 to 100% of the gait cycle) instead of time.</p>
+<blockquote>
+<div><p><b> TASK (<em>one time per active notebook session</em>): </b> Run the code cell below to activate the dropdown menus for selection.</p>
+<blockquote>
+<div><p>NOTE: you should only need to run the code cell below once per active colab session to activate the dropdown menus. If you can change your selections, it is activated. You can change your selections at any time and load your selection using the <a class="reference external" href="#scrollTo=Hw0TwgunODC-">Load Dataset</a> code cell.</p>
+</div></blockquote>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown Activate Dropdown Menus if needed.</span>
+ 
+<span class="n">w_subj</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select person (01-42)&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="nb">format</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="s1">&#39;02d&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">43</span><span class="p">,</span><span class="mi">1</span><span class="p">)],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select person (01-42)&#39;</span><span class="p">,</span>
+    <span class="c1"># rows=10,</span>
+    <span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">w_env</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select environment&#39;</span><span class="p">,</span><span class="s1">&#39;Overland&#39;</span><span class="p">,</span><span class="s1">&#39;Treadmill&#39;</span><span class="p">],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select environment&#39;</span><span class="p">,</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">w_Ospeed</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select speed for overland&#39;</span><span class="p">,</span><span class="s1">&#39;Comfortable&#39;</span><span class="p">,</span><span class="s1">&#39;Fast&#39;</span><span class="p">,</span><span class="s1">&#39;Slow&#39;</span><span class="p">],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select speed for overland&#39;</span><span class="p">,</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">w_Tspeed</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;select speed for treadmill (01-08)&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="nb">format</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="s1">&#39;02d&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">1</span><span class="p">)],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;select speed for treadmill (01-08)&#39;</span><span class="p">,</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_subj</span><span class="p">,</span><span class="n">w_env</span><span class="p">,</span><span class="n">w_Ospeed</span><span class="p">,</span><span class="n">w_Tspeed</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Dropdowns generated at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><b> TASK: </b> Once you have made your selection, then load the dataset. Run the code cell below to load the dataset <a class="reference external" href="#scrollTo=WFZLoPamhej1">you selected above</a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown ## **Load Dataset**</span>
+<span class="c1">#@markdown &gt;Note: If you change your dataset selections above, re-run this cell.</span>
+<span class="c1">#@markdown You only need to load each dataset once, </span>
+<span class="c1">#@markdown You can make new Kinematics and Kinetics selections from the menus</span>
+<span class="c1">#@markdown below without re-running this cell. </span>
+
+<span class="k">if</span> <span class="n">w_env</span><span class="o">.</span><span class="n">value</span><span class="o">==</span><span class="s1">&#39;Overland&#39;</span><span class="p">:</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">w_Ospeed</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="n">w_env</span><span class="o">.</span><span class="n">value</span><span class="o">==</span><span class="s1">&#39;Treadmill&#39;</span><span class="p">:</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">w_Tspeed</span><span class="o">.</span><span class="n">value</span>
+
+<span class="n">filename_norm</span> <span class="o">=</span> <span class="s1">&#39;WBDS&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">w_subj</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;walk&#39;</span> <span class="o">+</span> <span class="n">w_env</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">speed</span> 
+
+<span class="n">filepath_norm</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">datafolder</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">filename_norm</span> <span class="o">+</span> <span class="s1">&#39;ang.txt&#39;</span><span class="p">)</span>
+<span class="n">ang_norm</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath_norm</span><span class="p">,</span><span class="n">sep</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Processed kinematics data loaded.&#39;</span><span class="p">)</span>
+<span class="n">w_norm_ang</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectMultiple</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">ang_norm</span><span class="o">.</span><span class="n">columns</span><span class="p">)[</span><span class="mi">1</span><span class="p">:],</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">filepath_norm</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">datafolder</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">filename_norm</span> <span class="o">+</span> <span class="s1">&#39;knt.txt&#39;</span><span class="p">)</span>
+<span class="n">grf_norm</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath_norm</span><span class="p">,</span><span class="n">sep</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Processed ground fource data loaded.&#39;</span><span class="p">)</span>
+<span class="n">w_norm_grf</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectMultiple</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">grf_norm</span><span class="o">.</span><span class="n">columns</span><span class="p">)[</span><span class="mi">1</span><span class="p">:],</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Select which processed kinematics variables to plot from the following list (ctrl + click to select multiple).&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_norm_ang</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Select which processed ground force variables to plot from the following list (ctrl + click to select multiple).&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_norm_grf</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown &lt;b&gt;Task:&lt;/b&gt; Run this cell to plot your kinematic and kinetic selections.</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">make_subplots</span><span class="p">(</span><span class="n">rows</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                    <span class="n">shared_xaxes</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                    <span class="n">vertical_spacing</span><span class="o">=</span><span class="mf">0.02</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_norm_ang</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">w_norm_ang</span><span class="o">.</span><span class="n">value</span><span class="p">):</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">ang_norm</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">ang_norm</span><span class="p">[</span><span class="n">v</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="n">v</span><span class="p">),</span><span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_norm_ang</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Need to select markers to plot&#39;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_norm_grf</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">w_norm_grf</span><span class="o">.</span><span class="n">value</span><span class="p">):</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">grf_norm</span><span class="p">[</span><span class="n">v</span><span class="p">],</span><span class="n">name</span><span class="o">=</span><span class="n">v</span><span class="p">),</span><span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_norm_grf</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Need to select markers to plot&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Data upload completed at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(</span><span class="n">timezone</span><span class="p">(</span><span class="o">-</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">5</span><span class="p">)))))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis2_title</span><span class="o">=</span><span class="s2">&quot;percent gait cycle&quot;</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;degrees&#39;</span><span class="p">,</span><span class="n">yaxis2_title</span><span class="o">=</span><span class="s1">&#39;N/kg&#39;</span><span class="p">,</span>
+                  <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown &lt;b&gt;Task:&lt;/b&gt; Run this cell to plot the ground reaction force vector direction </span>
+<span class="c1">#@markdown &gt;Note: vector direction calculated in 2D (x,y) plane only.</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="n">rho</span><span class="p">,</span><span class="n">phi</span> <span class="o">=</span> <span class="n">cart2pol</span><span class="p">(</span><span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;RGRFX&#39;</span><span class="p">],</span><span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;RGRFY&#39;</span><span class="p">])</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">degrees</span><span class="p">(</span><span class="n">phi</span><span class="p">),</span>
+                         <span class="n">name</span><span class="o">=</span><span class="s1">&#39;right&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">))</span>
+<span class="n">rho</span><span class="p">,</span><span class="n">phi</span> <span class="o">=</span> <span class="n">cart2pol</span><span class="p">(</span><span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;LGRFX&#39;</span><span class="p">],</span><span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;LGRFY&#39;</span><span class="p">])</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">grf_norm</span><span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">degrees</span><span class="p">(</span><span class="n">phi</span><span class="p">),</span>
+                         <span class="n">name</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="s2">&quot;percent gait cycle&quot;</span><span class="p">,</span> <span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;degrees&#39;</span><span class="p">,</span>
+                  <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@markdown &lt;b&gt;Task:&lt;/b&gt; Run this cell to make a polar plot </span>
+<span class="c1">#@markdown of the ground reaction force vector direction and magnitude (in 2D x,y plane).</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatterpolar</span><span class="p">(</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">rho</span><span class="p">,</span>
+        <span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">degrees</span><span class="p">(</span><span class="n">phi</span><span class="p">),</span>
+        <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
+        <span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr>
+<br>
+</div>
+<div class="section" id="nice-work">
+<h2>NICE WORK!<a class="headerlink" href="#nice-work" title="Permalink to this headline">¶</a></h2>
+<br>
+<hr>
+<p>For users not in this course:
+This notebook assumes that you have access to the BIOL358 shared class drive in which the dataset from <a class="reference external" href="https://peerj.com/articles/4640/">Fukuchi et al (2018)</a> has been stored. To change the filepath, or aquire the dataset via direct download (if that is possible), edit the first code cell in Step #2 (“TASK: RUN this cell to set up the notebook (import packages, etc)” and change the datafolder path variable. And/or edit the code cells in which the data is imported.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="NotebookColab_Introduction.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Introduction to Colab Notebooks</p>
+        </div>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Dr. Krista Perks<br/>
+    
+        &copy; Copyright 2022.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
