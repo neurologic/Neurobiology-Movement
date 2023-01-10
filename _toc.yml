@@ -18,12 +18,14 @@ parts:
   - caption: Static Content
     chapters:
     - file: markdown/introduction
-    - file: markdown/anatomy
     - file: markdown/kinematics
-    - file: markdown/movement-control_antagonists-reflex
+    - file: markdown/anatomy
     - file: markdown/neuro-muscle-coding
+    - file: markdown/movement-control_agonists-antagonists
     - file: markdown/cells-circuits
     - file: markdown/strength-coordination
+    - file: markdown/movement-control-motor-cortex
+    - file: markdown/action-control-cpg
     - file: markdown/action-control-motor-cortex
   - caption: Interactive Notebooks
     chapters:

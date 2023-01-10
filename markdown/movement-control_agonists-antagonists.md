@@ -1,4 +1,4 @@
-# *Movement* Control: Antagonists and Reflex Circuits
+# *Movement* Control: Agonists and Antagonists
 
 - agonists and antagonists
 - reflex circuits

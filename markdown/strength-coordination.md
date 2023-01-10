@@ -10,6 +10,7 @@ For example, "cramps" during loaded movement (try hip flexor raises while sittin
 ## Additional Resources
 
 - [Hedayatpour, N., & Falla, D. (2015). Physiological and Neural Adaptations to Eccentric Exercise: Mechanisms and Considerations for Training. BioMed research international, 2015, 193741. ](https://doi.org/10.1155/2015/193741)
+- [The brain can make you stronger](https://doi.org/10.1113/JP277683)
 - [Suchomel TJ, Wagle JP, Douglas J, Taber CB, Harden M, Haff GG, Stone MH. Implementing Eccentric Resistance Training—Part 1: A Brief Review of Existing Methods. Journal of Functional Morphology and Kinesiology. 2019; 4(2):38. ](https://doi.org/10.3390/jfmk4020038)
 - [Insights into the neural control of eccentric contractions](https://doi.org/10.1152/japplphysiol.00002.2013)
 - [Sale D. G. (1988). Neural adaptation to resistance training. Medicine and science in sports and exercise, 20(5 Suppl), S135–S145. ](https://doi.org/10.1249/00005768-198810001-00009)
@@ -29,3 +30,5 @@ For example, "cramps" during loaded movement (try hip flexor raises while sittin
 - [Effects of exercise training on alpha-motoneurons](https://journals.physiology.org/doi/pdf/10.1152/japplphysiol.00482.2006)
 - [Mrachacz-Kersting, N., Stevenson, A.J.T. & Ziemann, U. Short-interval intracortical inhibition and facilitation targeting upper and lower limb muscles. Sci Rep 11, 21993 (2021). ](https://doi.org/10.1038/s41598-021-01348-6)
 - [**Mechanisms and functional implications of motoneuron adaptations to increased physical activity**](https://doi.org/10.1139/apnm-2018-0185)
+- [Del Vecchio, A., Casolo, A., Negro, F., Scorcelletti, M., Bazzucchi, I., Enoka, R., Felici, F., & Farina, D. (2019). The increase in muscle force after 4 weeks of strength training is mediated by adaptations in motor unit recruitment and rate coding. The Journal of physiology, 597(7), 1873–1887.](https://doi.org/10.1113/JP277250)
+- [Gabriel, D.A., Kamen, G. & Frost, G. Neural Adaptations to Resistive Exercise. Sports Med 36, 133–149 (2006).](https://doi.org/10.2165/00007256-200636020-00004)

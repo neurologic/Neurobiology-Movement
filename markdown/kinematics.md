@@ -1,4 +1,4 @@
-# Kinematics
+# Movement
 
 - What is movement (from an observational perspective, not philosophical)?
 - How do we describe and quantify movement?

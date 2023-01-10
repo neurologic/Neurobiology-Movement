@@ -1,13 +1,13 @@
-# Cells and Circuits
+# Cell Types and Circuits
 
 - intrinsic physiology
 - synaptic connectivity
 - circuit output
 
 (cell-types-class-prep)=
-## Cell Type Physiology
+## Cell Types
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQZi7D51F4drbPC0wgy4k632yFMxgPlxkqsoYdALdTofnPX3tM62-SN5SPdjH2mY7CWak-_IQDZp40_/pub?embedded=true"></iframe>
+<iframe src="https://drive.google.com/file/d/1RRugwcUWa80mYAWo_MR6yWhg6PR5EQcrYlXVIIvOWec/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Slides
 
@@ -16,3 +16,5 @@
 ## Additional Resources
 
 - [Niall J. Moore, Gardave S. Bhumbra, Joshua D. Foster, Marco Beato (2015) Synaptic Connectivity between Renshaw Cells and Motoneurons in the Recurrent Inhibitory Circuit of the Spinal Cord. Journal of Neuroscience, 35 (40) 13673-13686](https://doi.org/10.1523/JNEUROSCI.2541-15.2015)
+- [Szczupak L. (2014). Recurrent inhibition in motor systems, a comparative analysis. Journal of physiology, Paris, 108(2-3), 148–154.](https://doi.org/10.1016/j.jphysparis.2014.05.004)
+- [On the function of recurrent inhibition in the spinal cord](https://doi.org/10.1007/bf00237722)
