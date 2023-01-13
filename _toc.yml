@@ -24,9 +24,20 @@ parts:
     - file: markdown/movement-control_agonists-antagonists
     - file: markdown/cells-circuits
     - file: markdown/strength-coordination
-    - file: markdown/movement-control-motor-cortex
-    - file: markdown/action-control-cpg
-    - file: markdown/action-control-motor-cortex
+    - file: markdown/movement-control_motor-cortex
+    - file: markdown/action-control_cpg
+    - file: markdown/action-control_brainstem
+    - file: markdown/tectum
+    - file: markdown/high-dimensional-techniques
+    - file: markdown/action-selection_leech-swim-crawl
+    - file: markdown/action-selection_amygdala
+    - file: markdown/action-control_motor-cortex
+    - file: markdown/action-control_brainstem-high-d
+    - file: markdown/canonical-circuits
+    - file: markdown/action-sequencing_basal-ganglia
+    - file: markdown/coordination-cerebellum
+    - file: markdown/context-cerebellum
+    - file: markdown/movement-effects-sensory-systems
   - caption: Interactive Notebooks
     chapters:
     - file: notebooks/NotebookColab_Introduction

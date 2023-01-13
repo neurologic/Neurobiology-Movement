@@ -8,7 +8,7 @@
 *Office Hours*: [via Zoom](https://wesleyan.zoom.us/j/94621043921?pwd=OC96eEtTMll5QitvUE9YSmtFWWgvdz09). Please schedule during this time by appointment. 
 
 **Classroom Sessions**  
-Tuesdays and Thursdays 8:50-10:10am SCIE109
+Mondays and Wednesdays 8:50-10:10am SCIE71
 
 ## Background and Introduction  
 

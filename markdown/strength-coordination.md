@@ -3,6 +3,8 @@
 - muscle mass
 - pre-synaptic coordination
 
+<iframe src="https://drive.google.com/file/d/1fliNusd2Yi5DDychEiRFwBuGL5ryRvrg/preview" width="640" height="480" allow="autoplay"></iframe>
+
 For example, what if I asked you to [do a movement that requires "strength" that is unfamiliar]... does it feel like your body totally tenses up? With some practice, your body will feel less tense and the movement will feel less "effortfull." You are not necessarily increasing muscle mass as you train this movement, you might just be training muscle recruitment.
 
 For example, "cramps" during loaded movement (try hip flexor raises while sitting) are often a result of the "omg muscle ACTIVATE" signals that lead to co-contraction of more muscles than needed. With practice, less muscles get recruited for the movement and they can activate in a graded manner rather than "all-or-none."
