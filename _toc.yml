@@ -40,5 +40,5 @@ parts:
     - file: markdown/movement-effects-sensory-systems
   - caption: Interactive Notebooks
     chapters:
-    - file: notebooks/NotebookColab_Introduction
-    - file: notebooks/NotebookColab_Kinematics_WBDSdataset
+    - file: executable/NotebookColab_Introduction
+    - file: executable/NotebookColab_Kinematics_WBDSdataset
