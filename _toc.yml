@@ -42,3 +42,9 @@ parts:
     chapters:
     - file: executable/NotebookColab_Introduction
     - file: executable/NotebookColab_Kinematics_WBDSdataset
+    - file: executable/NotebookColab_CellTypes_InquiryAndAnalysis
+    - file: executable/NotebookColab_LIF_NeuronModel_Tutorial
+    - file: executable/NotebookColab_Georgopoulus1982
+    - file: executable/Tutorial_GeometricViewOfData
+    - file: executable/Tutorial_DimensionalityReduction
+    - file: executable/BasisSets
