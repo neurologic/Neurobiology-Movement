@@ -27,8 +27,6 @@ bibtex_bibfiles:
 repository:
   url: https://github.com/neurologic/Neurobiology-Movement  # Online location of your book
   branch: main  # Which branch of the repository should be used when creating links (optional)
-html:
-  use_issues_button: true
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
@@ -38,10 +36,9 @@ html:
 
 # Add Colab launch button to each .ipynb file
 launch_buttons:
-  notebook_interface: "classic"
+  # notebook_interface: "classic"
   colab_url: "https://colab.research.google.com"
-  binderhub_url: "https://mybinder.org"
-
+  
 parse:
   myst_enable_extensions: 
     - amsmath
