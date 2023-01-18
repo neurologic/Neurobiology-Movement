@@ -9,37 +9,44 @@ parts:
     - file: syllabus
     - file: schedule
     - file: editorials/editorials-general-info
-      sections:
+      sections: 
         - file: editorials/editorials-guidelines
+        - file: editorials/editorials-examples
     - file: capstone/capstone-general-info
-      sections:
+      sections: 
         - file: capstone/capstone-guidelines
     # - file: genindex
   - caption: Static Content
     chapters:
     - file: markdown/introduction
-    - file: markdown/kinematics
-    - file: markdown/anatomy
-    - file: markdown/neuro-muscle-coding
-    - file: markdown/movement-control_agonists-antagonists
-    - file: markdown/cells-circuits
-    - file: markdown/strength-coordination
-    - file: markdown/movement-control_motor-cortex
-    - file: markdown/action-control_cpg
-    - file: markdown/action-control_brainstem
-    - file: markdown/tectum
-    - file: markdown/high-dimensional-techniques
-    - file: markdown/action-selection_leech-swim-crawl
-    - file: markdown/action-selection_amygdala
-    - file: markdown/action-control_motor-cortex
-    - file: markdown/action-control_brainstem-high-d
-    - file: markdown/canonical-circuits
-    - file: markdown/action-sequencing_basal-ganglia
-    - file: markdown/coordination-cerebellum
-    - file: markdown/context-cerebellum
-    - file: markdown/movement-effects-sensory-systems
+    - file: markdown/basic-movement-general
+      sections: 
+        - file: markdown/kinematics
+        - file: markdown/anatomy
+        - file: markdown/neuro-muscle-coding
+        - file: markdown/movement-control_agonists-antagonists
+        - file: markdown/cells-circuits
+        - file: markdown/strength-coordination
+        - file: markdown/movement-control_motor-cortex
+    - file: markdown/basic-action-general
+      sections: 
+        - file: markdown/action-control_cpg
+        - file: markdown/action-control_brainstem
+        - file: markdown/tectum
+        - file: markdown/high-dimensional-techniques
+        - file: markdown/action-selection_leech-swim-crawl
+        - file: markdown/action-selection_amygdala
+        - file: markdown/action-control_motor-cortex
+        - file: markdown/action-control_brainstem-high-d
+    - file: markdown/beyond-general
+      sections: 
+        - file: markdown/canonical-circuits
+        - file: markdown/action-sequencing_basal-ganglia
+        - file: markdown/coordination-cerebellum
+        - file: markdown/context-cerebellum
+        - file: markdown/movement-effects-sensory-systems
   - caption: Interactive Notebooks
-    chapters:
+    chapters: 
     - file: executable/NotebookColab_Introduction
     - file: executable/NotebookColab_Kinematics_WBDSdataset
     - file: executable/NotebookColab_CellTypes_InquiryAndAnalysis

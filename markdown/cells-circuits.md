@@ -9,6 +9,8 @@
 
 <iframe src="https://drive.google.com/file/d/1RRugwcUWa80mYAWo_MR6yWhg6PR5EQcrYlXVIIvOWec/preview" width="640" height="480" allow="autoplay"></iframe>
 
+[Interactive Notebook: Cell Types](../executable/NotebookColab_CellTypes_InquiryAndAnalysis)
+
 ## Slides
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2201TkGjTIdGkR7suHmTAt_3Wu1ATGqt19NXg60UpEdgkxIyI-yzSMrL44UwrmmKnwPuiyIknb4Ae/embed?" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

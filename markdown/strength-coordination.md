@@ -1,13 +1,27 @@
-# Strength or Coordination
+# Strength
 
-- muscle mass
-- pre-synaptic coordination
+Muscle versus Neural "strength."
+
+People with bigger muscles are not necessarily "stronger" because strength is more than muscle mass. 
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSWSXL1Kt7PyZFRfMYpPmieupoOQ6a8aXn3msuJcgU_86T7oL2L8sgEljbuNbPcO_jh8YKX_7O_ilJN/embed?" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+## Neuron Coding Physiology
+
+[Interactive Notebook: Cell Types](../executable/NotebookColab_LIF_NeuronModel_Tutorial)
+
+
+## Examples
 
 <iframe src="https://drive.google.com/file/d/1fliNusd2Yi5DDychEiRFwBuGL5ryRvrg/preview" width="640" height="480" allow="autoplay"></iframe>
 
 For example, what if I asked you to [do a movement that requires "strength" that is unfamiliar]... does it feel like your body totally tenses up? With some practice, your body will feel less tense and the movement will feel less "effortfull." You are not necessarily increasing muscle mass as you train this movement, you might just be training muscle recruitment.
 
 For example, "cramps" during loaded movement (try hip flexor raises while sitting) are often a result of the "omg muscle ACTIVATE" signals that lead to co-contraction of more muscles than needed. With practice, less muscles get recruited for the movement and they can activate in a graded manner rather than "all-or-none."
+
 
 ## Additional Resources
 
