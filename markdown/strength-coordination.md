@@ -8,12 +8,6 @@ People with bigger muscles are not necessarily "stronger" because strength is mo
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSWSXL1Kt7PyZFRfMYpPmieupoOQ6a8aXn3msuJcgU_86T7oL2L8sgEljbuNbPcO_jh8YKX_7O_ilJN/embed?" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
-## Neuron Coding Physiology
-
-[Interactive Notebook: Cell Types](../executable/NotebookColab_LIF_NeuronModel_Tutorial)
-
-
 ## Examples
 
 <iframe src="https://drive.google.com/file/d/1fliNusd2Yi5DDychEiRFwBuGL5ryRvrg/preview" width="640" height="480" allow="autoplay"></iframe>
