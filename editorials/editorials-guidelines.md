@@ -5,7 +5,7 @@
 
 ### Summary Statement
 2-4 sentences. What is the aim, scope, and results of your work?   
-For example, what motor control problem are you addressing and how would you summarize the solution? What major unknowns are there? Or, how are you explaining/viewing a certain phenomena through the lens of the set if focus topics? 
+For example, what motor control problem are you addressing and how would you summarize the solution? How did you aim to explore and share on a particular topic? What major unknowns are there? Or, how are you explaining/viewing a certain phenomena through the lens of the set if focus topics? 
 
 ### Main Content Guidelines
 

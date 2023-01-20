@@ -7,3 +7,5 @@
 ## Additional Resources
 
 - [Central pattern generators in the turtle spinal cord: selection among the forms of motor behaviors](https://doi.org/10.1152/jn.00602.2017)
+- [Current Principles of Motor Control, with Special Reference to Vertebrate Locomotion](https://doi.org/10.1152/physrev.00015.2019)
+- [Recent Insights into the Rhythmogenic Core of the Locomotor CPG](https://doi.org/10.3390/ijms22031394)

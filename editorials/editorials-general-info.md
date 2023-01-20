@@ -1,8 +1,8 @@
 # Editorials
 
-- Basic Movement Control | DUE March 
-- Basic Action Control | DUE April 
-- Beyond Basic Motor Control | DUE May 
+- Basic Movement Control | DUE March 6 11 PM
+- Basic Action Control | DUE April 24 11 PM
+- Beyond Basic Motor Control | DUE May 16 11 PM
 
 ## Motivation and Goals
 

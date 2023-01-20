@@ -72,7 +72,7 @@ It is important that students bring a certain ragamuffin[^ragamuffin], barefoot 
 ## Course Resources
 - The course website (which you accessed to read this syllabus) contains all course materials that you will need. 
 - Assignments are handed in and graded via [**Gradescope**](https://www.gradescope.com/).
-  - [Joining the course through your Gradescope account](https://help.gradescope.com/article/gi7gm49peg-student-add-course). <font color="green">Course Code: TBD</font>. 
+  - [Joining the course through your Gradescope account](https://help.gradescope.com/article/gi7gm49peg-student-add-course). <font color="green">Course Code: Y78WV4</font>. 
   - [Additional resources for students](https://help.gradescope.com/category/cyk4ij2dwi-student-workflow)
 
 
@@ -100,15 +100,15 @@ All graded work will be handed in via Gradescope.
 :align: center
 ::: -->
 
-**<font color="green">Classroom Sessions</font>** *10%*  
+**<font color="green">Classroom Sessions</font>** *15%*  
 Attendance and participation. 
 
-**<font color="orange">Editorials</font>** *70%*  
-The due dates are listed in the [Editorials tab](../editorials/editorials-general-info).
-
+**<font color="orange">Editorials</font>** *85%*  
+The due dates are listed in the [Editorials tab](../editorials/editorials-general-info) and the general guidelines are [here](../editorials/editorials-guidelines). 
+<!-- 
 **<font color="purple">Capstone</font>** *20%*  
 Due by midnight on the first day of final exams (TBD). Your work throughout the semester builds toward your [Capstone assignment](../capstone/capstone-general-info). This is your roadmap through the course that constitutes a demonstration of learning. You will integrate figures from throughout the course to show how concepts fit together and conceptual milestones that you achieved throughout the semester.
-  
+   -->
 
 ***Attendence*** in classroom sessions is mandatory. If unforseeable emergency comes up, please reach out as soon as possible so that we can make a plan.  
 
