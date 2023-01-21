@@ -10,7 +10,7 @@ The *Pages* column contains links to materials we will use during class that day
 |---|---|---|---|
 | **Jan 30** | Welcome and Introduction | none | [](../welcome) <br> [](../syllabus) <br> [](../markdown/introduction) |
 | Jan 1 | Movement | [Kinematics](https://en.wikipedia.org/wiki/Study_of_animal_locomotion) | [](../markdown/kinematics) |
-| **Feb 6** | Anatomy | [Basic Neuroanatomy](basic-neuroanatomy-class-prep) | [](../markdown/anatomy) |
+| **Feb 6** | Anatomy | [Basic Neuroanatomy](https://docs.google.com/document/d/1DCEwj_vyvqAOwF4KxUMF8B0g12rNVqojValIn0Q280A/edit?usp=sharing) | [](../markdown/anatomy) |
 | Feb 8 | NeuroMuscular Coding | [Rate Coding and the Control of Muscle Force](https://doi.org/10.1101/cshperspect.a029702) (click on either the full text or pdf link to read) | [](../markdown/neuro-muscle-coding) |
 | **Feb 13** | *Movement* Control: Agonists and Antagonists | [Neuronal control of leech behavior](https://doi.org/10.1016/j.pneurobio.2005.09.004): Figure 1, Figure 2, Section 3.2 Local Bending; | [](../markdown/movement-control_agonists-antagonists)  |
 | Feb 15 | Cells Types and Circuits | [On the function of recurrent inhibition in the spinal cord](https://doi.org/10.1007/bf00237722)| [](../markdown/cells-circuits)  |
