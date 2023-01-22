@@ -25,6 +25,7 @@
 
 ## Additional Resources
 
+- [Caggiano, V., Leiras, R., Goñi-Erro, H. et al. Midbrain circuits that set locomotor speed and gait selection. Nature 553, 455–460 (2018).](https://doi.org/10.1038/nature25448)
 - [Tectal control of locomotion, steering, and eye movements in lamprey](https://doi.org/10.1152/jn.00639.2006)
 - [Orienting our view of the superior colliculus: specializations and general functions](https://doi.org/10.1016/j.conb.2021.10.005)
 - [Circuits for Action and Cognition: A View from the Superior Colliculus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5752317/)

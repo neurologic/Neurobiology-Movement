@@ -17,6 +17,7 @@
 
 ## Additional Resources
 
+- [Bean, B. The action potential in mammalian central neurons. Nat Rev Neurosci 8, 451–465 (2007).](https://doi.org/10.1038/nrn2148)
 - [Niall J. Moore, Gardave S. Bhumbra, Joshua D. Foster, Marco Beato (2015) Synaptic Connectivity between Renshaw Cells and Motoneurons in the Recurrent Inhibitory Circuit of the Spinal Cord. Journal of Neuroscience, 35 (40) 13673-13686](https://doi.org/10.1523/JNEUROSCI.2541-15.2015)
 - [Szczupak L. (2014). Recurrent inhibition in motor systems, a comparative analysis. Journal of physiology, Paris, 108(2-3), 148–154.](https://doi.org/10.1016/j.jphysparis.2014.05.004)
 - [On the function of recurrent inhibition in the spinal cord](https://doi.org/10.1007/bf00237722)
