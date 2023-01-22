@@ -19,11 +19,12 @@ For example, "cramps" during loaded movement (try hip flexor raises while sittin
 
 ## Additional Resources
 
+- [**Sale D. G. (1988). Neural adaptation to resistance training. Medicine and science in sports and exercise, 20(5 Suppl), S135–S145.**](https://doi.org/10.1249/00005768-198810001-00009)
+- [Del Vecchio, A., Casolo, A., Negro, F., Scorcelletti, M., Bazzucchi, I., Enoka, R., Felici, F., & Farina, D. (2019). The increase in muscle force after 4 weeks of strength training is mediated by adaptations in motor unit recruitment and rate coding. The Journal of physiology, 597(7), 1873–1887.](https://doi.org/10.1113/JP277250)
 - [Hedayatpour, N., & Falla, D. (2015). Physiological and Neural Adaptations to Eccentric Exercise: Mechanisms and Considerations for Training. BioMed research international, 2015, 193741. ](https://doi.org/10.1155/2015/193741)
 - [The brain can make you stronger](https://doi.org/10.1113/JP277683)
 - [Suchomel TJ, Wagle JP, Douglas J, Taber CB, Harden M, Haff GG, Stone MH. Implementing Eccentric Resistance Training—Part 1: A Brief Review of Existing Methods. Journal of Functional Morphology and Kinesiology. 2019; 4(2):38. ](https://doi.org/10.3390/jfmk4020038)
 - [Insights into the neural control of eccentric contractions](https://doi.org/10.1152/japplphysiol.00002.2013)
-- [Sale D. G. (1988). Neural adaptation to resistance training. Medicine and science in sports and exercise, 20(5 Suppl), S135–S145. ](https://doi.org/10.1249/00005768-198810001-00009)
 - [Neural Adaptations and Strength Training](https://blog.bridgeathletic.com/neural-adaptations-and-strength-training)
 - [Lifting weights makes your nervous system stronger too](https://www.ncl.ac.uk/press/articles/archive/2020/06/liftingweightsmakesyournervoussystemstronger/)
 - [Cortical, corticospinal and reticulospinal contributions to strength training.](https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.1923-19.2020)
@@ -31,7 +32,6 @@ For example, "cramps" during loaded movement (try hip flexor raises while sittin
 - [STRENGTH TRAINING AND NEUROMUSCULAR ADAPTATIONS](https://us.humankinetics.com/blogs/excerpt/neuromuscular-adaptations-to-strength-training)
 - [Schoenfeld B. J. (2010). The mechanisms of muscle hypertrophy and their application to resistance training. Journal of strength and conditioning research, 24(10), 2857–2872. ](https://doi.org/10.1519/JSC.0b013e3181e840f3)
 - [HEDAYATPOUR, NOSRATOLLAH; FALLA, DEBORAH; ARENDT-NIELSEN, LARS; FARINA, DARIO. Sensory and Electromyographic Mapping during Delayed-Onset Muscle Soreness. Medicine & Science in Sports & Exercise 40(2):p 326-334, February 2008.](https://doi.org/10.1249/mss.0b013e31815b0dcb)
-- [Sale D. G. (1988). Neural adaptation to resistance training. Medicine and science in sports and exercise, 20(5 Suppl), S135–S145. ](https://doi.org/10.1249/00005768-198810001-00009)
 - [Aagaard, Per. Training-Induced Changes in Neural Function. Exercise and Sport Sciences Reviews 31(2):p 61-67, April 2003.]
 - [The Hoffmann reflex: A means of assessing spinal reflex excitability and its descending control in man](https://doi.org/10.1016/0301-0082(87)90007-4)
 - [**Assessment of Neuroplasticity With Strength Training**](https://doi.org/10.1249/JES.0000000000000229)
@@ -40,5 +40,5 @@ For example, "cramps" during loaded movement (try hip flexor raises while sittin
 - [Effects of exercise training on alpha-motoneurons](https://journals.physiology.org/doi/pdf/10.1152/japplphysiol.00482.2006)
 - [Mrachacz-Kersting, N., Stevenson, A.J.T. & Ziemann, U. Short-interval intracortical inhibition and facilitation targeting upper and lower limb muscles. Sci Rep 11, 21993 (2021). ](https://doi.org/10.1038/s41598-021-01348-6)
 - [**Mechanisms and functional implications of motoneuron adaptations to increased physical activity**](https://doi.org/10.1139/apnm-2018-0185)
-- [Del Vecchio, A., Casolo, A., Negro, F., Scorcelletti, M., Bazzucchi, I., Enoka, R., Felici, F., & Farina, D. (2019). The increase in muscle force after 4 weeks of strength training is mediated by adaptations in motor unit recruitment and rate coding. The Journal of physiology, 597(7), 1873–1887.](https://doi.org/10.1113/JP277250)
 - [Gabriel, D.A., Kamen, G. & Frost, G. Neural Adaptations to Resistive Exercise. Sports Med 36, 133–149 (2006).](https://doi.org/10.2165/00007256-200636020-00004)
+- [Science for Sport: Rate of Force Development](https://www.scienceforsport.com/rate-of-force-development-rfd-2/)
