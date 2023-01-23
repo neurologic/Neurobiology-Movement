@@ -12,4 +12,6 @@
 
 [Interactive Notebook: Dimensionality Reduction](../executable/Tutorial_DimensionalityReduction)
 
-## Additional Resources
+## Additional 
+
+- [Math is fun" matrix multiplication](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
