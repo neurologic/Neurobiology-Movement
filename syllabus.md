@@ -37,11 +37,11 @@ Of you I ask:
 
 We’ll be working together to create an equitable and inclusive environment of mutual respect, in which we all feel comfortable to share our moments of confusion, ask questions, and challenge our understanding. Everyone should be able to succeed in this course. If you do not feel that is the case please let me know. 
 
-You are encouraged to *scrutinise* and *question* learning material as you explore topics in your own way. I, as the instructor, am here to serve as your coach from the sidelines. The goal is for you to develop your own understanding of the topics and practice the skills needed to be a life-long learner -- skills that you can apply to learning anything, in academia, your career, or life in general. Among the broader skill goals that you will be working on are: Communication, Collaboration, Critical Thinking, and Creativity.
+You are encouraged to *scrutinise* and *question* learning material as you explore topics in your own way. I, as the instructor, am here to serve as your coach from the sidelines. The goal is for you to develop your own understanding of the topics and practice formulating your ideas into something that can be communicated to a broader audience. In this course (and others) I hope you find inspiration and develop *your own interests*, and develop the skills to go on to study those interests in depth in your own unique ways. 
 
-This class is about more than Animal Behavior as a topic itself. The content of the "animal behavior" is vast. This course is curated to mentor you in "thinking like an animal behavior scientist" - a priority greater than the task of '*knowing*' all specific details of behaviors we discuss. Outside of the course, many of you are unlikely to be regularly applying most (if any) of the specific content knowledge about each sub-topic or behavior that we explore inside this course. This is not to diminish the importance of this content, but rather to emphasize the importance of getting more than just content "knowledge" memorization out of this (and any) classroom experience. In this course (and others) I hope you find inspiration and develop *your own interests*, and develop the skills to go on to study those interests in depth in your own unique ways. 
+The assessment in this course requires that you formulate your own opinions and models and curate what information you think is relevant to express those opinions. This structure is a bit open-ended, which can feel uncomfortable. You will not be told what to prioritize in your editorials, which can feel uncomfortable. Classroom discussions will revolve around what you find interesting and challenging. You do not need to “know the answer” to contribute to discussions. Be open to dialog and debate and to holding conflicting ideas in your mind.
 
-The materials used in this course have been thoughtfully curated and designed to meet the following standards as published in “[The New Blueprints: Undergraduate Neuroscience Education in the Twenty-First Century.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6153019/)“ 
+The course content has been thoughtfully curated and designed to meet the following standards as published in “[The New Blueprints: Undergraduate Neuroscience Education in the Twenty-First Century.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6153019/)“ 
 Specifically, this course works toward the following goals:
 - To have students explore neuroscience more deeply by:
   - Increasing exposure to primary literature
@@ -52,11 +52,12 @@ Involving them in more sophisticated analytic, quantitative, computational, and 
   - an in-depth understanding of primary literature;
   - facility with sophisticated quantitative and computational skills;
 
-Some of the materials challenge you to interact with and analyze raw data. I ask that you keep a growth mindset and understand that [there is no such thing as a computational person](https://medium.com/the-spike/there-is-no-such-thing-as-a-computational-person-cca658b5c8f9).
+Some of the materials challenge you to interact with and analyze data. I ask that you keep a growth mindset and understand that [there is no such thing as a computational person](https://medium.com/the-spike/there-is-no-such-thing-as-a-computational-person-cca658b5c8f9).
 
-The assessment in this course requires that you formulate your own opinions and models and curate what information you think is relevant to express those opinions. This structure is a bit open-ended, which can feel uncomfortable. You will not be told what to prioritize in your editorials, which can feel uncomfortable. Classroom discussions will revolve around what you find interesting and challenging. You do not need to “know the answer” to contribute to discussions. Be open to dialog and debate and to holding conflicting ideas in your mind.
-
-For this course you will read journal papers. Students often have two reactions to journal papers: (1) I don’t understand a word of this, please can I have my textbook back? (Answer: no, because the textbook is wrong). And (2) it’s published, so it must be true. This is nonsense. Papers are, in all probability, wrong. Do not defer to authority, but be constructively skeptical – ask of a paper basic questions: “do the claims follow from the actual results?”; “What could have been done better?”; “What could be done next?”. We need to remember a simple truth: Every paper is an idea – it says “hey look at this, this could be cool”. Not “This is The Truth.” ([Excerpt from Mark Humphries](https://medium.com/the-spike/most-research-i-publish-will-be-wrong-and-im-ok-with-that-3440e795358d))
+For this course you will read journal papers. Students often have two reactions to journal papers:  
+1. I don’t understand a word of this, please can I have my textbook back? (Answer: no, because the textbook is wrong). 
+2. it’s published, so it must be true.   
+This is nonsense. Papers are, in all probability, wrong. Do not defer to authority, but be constructively skeptical – ask of a paper basic questions: “do the claims follow from the actual results?”; “What could have been done better?”; “What could be done next?”. We need to remember a simple truth: Every paper is an idea – it says “hey look at this, this could be cool”. Not “This is The Truth.” ([Excerpt from Mark Humphries](https://medium.com/the-spike/most-research-i-publish-will-be-wrong-and-im-ok-with-that-3440e795358d))
 
 
 
@@ -67,6 +68,19 @@ It is important that students bring a certain ragamuffin[^ragamuffin], barefoot 
 :::
 
 [^ragamuffin]: Oxford languages defines it as: "*a person, typically a child, in ragged, dirty clothes*". It is also a breed of cat. The term ragamuffin is used affectionately in this context of recognizing the value of rugged scrappiness. Though its roots are in describing a lazy and worthless, or beggarly individual. In the early 19th century the word became associated with the children who would dress up for Thanksgiving as ragamuffins and parade asking for handouts, parodying begging and beggars. I have not found any resources informing that this word is derogatory or discriminatory nor contains any racial undertones. If you are informed otherwise do not hesitate to edit this quote for the syllabus. 
+
+
+:::{epigraph}
+Education is not the learning of facts, but the training of the mind to think.
+
+-- Albert Einstein 
+:::
+
+:::{epigraph}
+The mind is not a vessel that needs filling, but wood that needs igniting.
+
+-- Plutarch 
+:::
 
 
 ## Course Resources
@@ -88,7 +102,7 @@ It is important that students bring a certain ragamuffin[^ragamuffin], barefoot 
 Class rosters are provided to the instructor with the student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. Please advise me of this preference early in the semester so that I may make appropriate changes to my records.
 
 **Class Preparation**  
-In preparation for class, complete any "Assignments" listed in the [Schedule](../schedule) page. Sometimes this will include producing work that you bring to the corresponding classroom session, other times it will just include readings or listenings. Readings and listenings are meant to reinforce the concepts that are introduced (either before or after) through classroom activities and discussion.
+In preparation for class, complete any "Assignments" listed in the [Schedule](../schedule) page. 
 
 ## Grading
 All graded work will be handed in via Gradescope.
@@ -120,18 +134,6 @@ In general, you can refer to the following general guidelines to gauge your expe
   “A” work shows excellent grasp of the concepts and the importance of the topic and demonstrates clear logical thinking and reasoning. Writing and presentation of material is clear and concise and grabs the reader’s attention. It stimulates the reader to learn more to enhance their understanding of the subject. Information is used synthetically to make one or more original connections with/among course topics.  
 
 
-
-:::{epigraph}
-Education is not the learning of facts, but the training of the mind to think.
-
--- Albert Einstein 
-:::
-
-:::{epigraph}
-The mind is not a vessel that needs filling, but wood that needs igniting.
-
--- Plutarch 
-:::
 
 
 ## Other

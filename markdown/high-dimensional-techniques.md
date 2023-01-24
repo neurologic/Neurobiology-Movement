@@ -14,4 +14,5 @@
 
 ## Additional 
 
+- [Neuromatch Academy: Matrices](https://compneuro.neuromatch.io/tutorials/W0D3_LinearAlgebra/student/W0D3_Tutorial2.html)
 - [Math is fun" matrix multiplication](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
