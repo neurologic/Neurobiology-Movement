@@ -8,7 +8,7 @@
 *Office Hours*: [via Zoom](https://wesleyan.zoom.us/j/94621043921?pwd=OC96eEtTMll5QitvUE9YSmtFWWgvdz09). Please schedule during this time by appointment. 
 
 **Classroom Sessions**  
-Mondays and Wednesdays 8:50-10:10am SCIE71
+Mondays and Wednesdays 8:50-10:10am SCIE**121**
 
 ## Background and Introduction  
 
@@ -20,11 +20,11 @@ By the end of this course, students should be able to:
 - Formulate and support an opinion about how each part of the motor system contributes to motor control.
 - Interpret the main types of data that can be collected and interpret processed metrics.
 - Explain neural mechanisms involved in the production of a motor sequence by an animal.
-- Explore raw data through interactive visualizations.
+- Explore data through interactive visualizations.
 
 You should gain skills in:
-- The scientific study of animal behavior and the motor system 
-- Visual presentation of information
+- The scientific study of the motor system 
+- Communication of information through the context of your own ideas
 - Analytical thinking
 - Reading primary literature
 
@@ -39,7 +39,7 @@ We’ll be working together to create an equitable and inclusive environment of 
 
 You are encouraged to *scrutinise* and *question* learning material as you explore topics in your own way. I, as the instructor, am here to serve as your coach from the sidelines. The goal is for you to develop your own understanding of the topics and practice formulating your ideas into something that can be communicated to a broader audience. In this course (and others) I hope you find inspiration and develop *your own interests*, and develop the skills to go on to study those interests in depth in your own unique ways. 
 
-The assessment in this course requires that you formulate your own opinions and models and curate what information you think is relevant to express those opinions. This structure is a bit open-ended, which can feel uncomfortable. You will not be told what to prioritize in your editorials, which can feel uncomfortable. Classroom discussions will revolve around what you find interesting and challenging. You do not need to “know the answer” to contribute to discussions. Be open to dialog and debate and to holding conflicting ideas in your mind.
+The assessment in this course requires that you formulate your own opinions and models and curate what information you think is relevant to express those ideas. This structure is a bit open-ended, which can feel uncomfortable. You will not be told what to prioritize in your editorials, which can feel uncomfortable. Classroom discussions will revolve around what you find interesting and challenging. You do not need to “know the answer” to contribute to discussions. Be open to dialog and debate and to holding conflicting ideas in your mind.
 
 The course content has been thoughtfully curated and designed to meet the following standards as published in “[The New Blueprints: Undergraduate Neuroscience Education in the Twenty-First Century.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6153019/)“ 
 Specifically, this course works toward the following goals:
@@ -54,11 +54,9 @@ Involving them in more sophisticated analytic, quantitative, computational, and 
 
 Some of the materials challenge you to interact with and analyze data. I ask that you keep a growth mindset and understand that [there is no such thing as a computational person](https://medium.com/the-spike/there-is-no-such-thing-as-a-computational-person-cca658b5c8f9).
 
-For this course you will read journal papers. Students often have two reactions to journal papers:  
-1. I don’t understand a word of this, please can I have my textbook back? (Answer: no, because the textbook is wrong). 
-2. it’s published, so it must be true.   
-This is nonsense. Papers are, in all probability, wrong. Do not defer to authority, but be constructively skeptical – ask of a paper basic questions: “do the claims follow from the actual results?”; “What could have been done better?”; “What could be done next?”. We need to remember a simple truth: Every paper is an idea – it says “hey look at this, this could be cool”. Not “This is The Truth.” ([Excerpt from Mark Humphries](https://medium.com/the-spike/most-research-i-publish-will-be-wrong-and-im-ok-with-that-3440e795358d))
-
+For this course you will read journal papers. As [Mark Humphries lays out in his opinion piece](https://medium.com/the-spike/most-research-i-publish-will-be-wrong-and-im-ok-with-that-3440e795358d), students often have two reactions to journal papers :  
+1. I don’t understand a word of this, please can I have my textbook back? (Answer: no, because the textbook is wrong and you need more primary resources to formulate your own ideas.). 
+2. It’s published, so it must be true. This is nonsense. Papers are, in all probability, wrong. Do not defer to authority, but be constructively skeptical – ask of a paper basic questions: “do the claims follow from the actual results?”; “What could have been done better?”; “What could be done next?”. We need to remember a simple truth: Every paper is an idea – it says “hey look at this, this could be cool”. Not “This is The Truth.”  
 
 
 :::{epigraph}

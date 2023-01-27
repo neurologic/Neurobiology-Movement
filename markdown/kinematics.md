@@ -6,7 +6,7 @@
 
 Kinematics is a branch of study focused on the description of motion (how high, how far, how fast!) and kinetics is a branch focused on the explanation of motion (the forces that cause changes in motion). 
 
-Movement is the result of the intersection between the bodily affordances and the motor control system.
+Movement is the result of the intersection between the bodily affordances, the environment, and the motor control system.
 
 ## Slides
 
