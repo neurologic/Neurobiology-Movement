@@ -12,9 +12,9 @@ parts:
       sections: 
         - file: editorials/editorials-guidelines
         - file: editorials/editorials-examples
-    - file: capstone/capstone-general-info
-      sections: 
-        - file: capstone/capstone-guidelines
+    # - file: capstone/capstone-general-info
+    #   sections: 
+    #     - file: capstone/capstone-guidelines
     # - file: genindex
   - caption: Static Content
     chapters:
