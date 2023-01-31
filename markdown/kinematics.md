@@ -14,7 +14,7 @@ Movement is the result of the intersection between the bodily affordances, the e
 
 ## Kinematics and Kinetics Data Exploration
 
-The following document guides you through an interactive colaboratory notebook to explore the kinematics and kinetics of walking: [Interactive Notebook: Kinematics](../executable/NotebookColab_Kinematics_WBDSdataset).
+The following document guides you through an interactive colaboratory notebook to explore the kinematics and kinetics of walking: [Interactive Notebook: Kinematics](../executable/NotebookColab_Kinematics_WBDS_simple).
 
 
 ## Additional Resources
