@@ -13,3 +13,7 @@
 ## Experimental Demo
 
 <iframe src="https://drive.google.com/file/d/1R16Rqi4Z4lPB1pYScEyP3kJUrgqJIkG9/preview" width="640" height="480" allow="autoplay"></iframe>
+
+## Additional Resources
+
+- [Neuroscience Online: Spinal Reflexes](https://nba.uth.tmc.edu/neuroscience/s3/chapter02.html) has animations of some basic spinal circuits that underlie basic movement control. We will cover most of these in class. 
