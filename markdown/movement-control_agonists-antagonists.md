@@ -1,10 +1,9 @@
 # *Movement* Control: Agonists and Antagonists
 
-- agonists and antagonists
+- coordination
 - reflex circuits
 - "flexibility"
-- sensory to motor transformations
-
+- sensory-motor transformations in local bending
 
 ## Slides
 
