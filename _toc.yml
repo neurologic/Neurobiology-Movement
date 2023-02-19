@@ -24,7 +24,7 @@ parts:
         - file: markdown/kinematics
         - file: markdown/anatomy
         - file: markdown/neuro-muscle-coding
-        - file: markdown/movement-control_agonists-antagonists
+        - file: markdown/movement-control_antagonistic-pairs
         - file: markdown/cells-circuits
         - file: markdown/strength
         - file: markdown/movement-control_motor-cortex

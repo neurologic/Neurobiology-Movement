@@ -1,4 +1,4 @@
-# *Movement* Control: Agonists and Antagonists
+# *Movement* Control: Antagonistic Pairs
 
 - coordination
 - reflex circuits
