@@ -1,5 +1,11 @@
 # Orientation and *Action* Selection: Tectum
 
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSNTnUkVxk34--acsD4thkyOUU3aaVdjeiWcSbTiiBLz-VjmhlpoBWtYJjVVgfHiosDR10IU-5BVjRp/embed?" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 ## [The role of the optic tectum for visually evoked orienting and evasive movements](https://doi.org/10.1073/pnas.1907962116) (in Lamprey)
 
 ### Bar stimulus: intact response
@@ -19,9 +25,6 @@
 *When fast looming stimuli (linear or exponential) were applied, a strong tectal response and bilateral ventral root activation occurred, often strongest on the left “evasive” side.*
 <iframe src="https://drive.google.com/file/d/1uKQ6I_HJwpSX93SPULTVJlI1VXiRKVKc/preview" width="640" height="480" allow="autoplay"></iframe>
 
-## Slides
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSNTnUkVxk34--acsD4thkyOUU3aaVdjeiWcSbTiiBLz-VjmhlpoBWtYJjVVgfHiosDR10IU-5BVjRp/embed?" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Additional Resources
 
