@@ -1,0 +1,46 @@
+# Schedule
+
+Daily schedule of classroom sessions.  
+Complete homework (listed in the ***Assignments*** column) before class starts on that day.  
+The *Pages* column contains links to materials we will use during class that day and are not part of the homework. 
+
+**Mondays** are marked by bold font.  
+
+| **Date** | **Topic** | **Assignments** | **In-Class Page(s)** |
+|---|---|---|---|
+| **Jan 30** | Welcome and Introduction | none | [](../welcome) <br> [](../syllabus) <br> [](../markdown/introduction) |
+| Jan 1 | Movement | [Kinematics](https://en.wikipedia.org/wiki/Study_of_animal_locomotion) | [](../markdown/kinematics) |
+| **Feb 6** | Anatomy | [Basic Neuroanatomy](https://docs.google.com/document/d/1DCEwj_vyvqAOwF4KxUMF8B0g12rNVqojValIn0Q280A/edit?usp=sharing) | [](../markdown/anatomy) |
+| Feb 8 | NeuroMuscular Coding | [Rate Coding and the Control of Muscle Force](https://doi.org/10.1101/cshperspect.a029702) (click on either the full text or pdf link to read) | [](../markdown/neuro-muscle-coding) |
+| **Feb 13** | *Movement* Control: Antagonistic Pairs | [Neuronal control of leech behavior](https://doi.org/10.1016/j.pneurobio.2005.09.004): Figure 1, Figure 2, Section 3.2 Local Bending (including section 3.2 Figures); | [](../markdown/movement-control_antagonistic-pairs)  |
+| Feb 15 | Cells Types and Circuits | The first two sections ("Cell Types" and "Manual Database Exploration") of the [Cell Types](../executable/NotebookColab_CellTypes_InquiryAndAnalysis) Interactive Notebook;<br>[On the function of recurrent inhibition in the spinal cord](https://doi.org/10.1007/bf00237722)| [](../markdown/cells-circuits)  |
+| **Feb 20** | Strength | [The brain can make you stronger](https://doi.org/10.1113/JP277683);<br>[Assessment of Neuroplasticity With Strength Training](https://doi.org/10.1249/JES.0000000000000229) | [](../markdown/strength) |
+| Feb 22 | *Movement* Control: Motor Cortex | [On the relations between the direction of two-dimensional arm movements and cell discharge in primate motor cortex](https://doi.org/10.1523/jneurosci.02-11-01527.1982). Focus on the following sections: **Abstract**, **Introduction**, **Methods** "Data Analysis" first two paragraphs (we will cover equations 1 and 6 in class), **Results** "Behavioral Data" "Quantitative studies: Relations to the direction of movement" "Relations between the frequency of discharge and direction of movement: Directional tuning curve", and **Discussion**;<br> [Muscle and Movement Representations in the Primary Motor Cortex](https://doi.org/10.1126/science.285.5436.2136);<br>[Motor Cortex Connectivity](https://docs.google.com/document/d/12puKAiu90K6ykvWV69k-gCR1_jlqoWdrL3yQV18WtHo/edit?usp=sharing)| [](../markdown/movement-control_motor-cortex) |  |
+| **Feb 27** | *Action* Control: CPGs | [Central pattern generators and the control of rhythmic movements](https://doi.org/10.1016/s0960-9822%2801%2900581-4) (stop before "neuromodulators");<br> [Reciprocal Inhibition and Postinhibitory Rebound Produce Reverberation in a Locomotor Pattern Generator](https://doi.org/10.1126/science.229.4711.402) | [](../markdown/action-control_cpg) |
+| March 1 | *Action* Control: CPGs | [Central pattern generators and the control of rhythmic movements](https://doi.org/10.1016/s0960-9822%2801%2900581-4): "Coupling and Coordination" (pages R991-993);<br> [How the brainstem controls orofacial behaviors comprised of rhythmic actions](https://doi.org/10.1016/j.tins.2014.05.001) | [](../markdown/action-control_cpg) |
+| **March 6** | *Action* Control: Brainstem | [A functional map for diverse forelimb actions within brainstem circuitry](https://doi.org/10.1038/s41586-020-03080-z) | [](../markdown/action-control_brainstem) |
+| **March 6** | **Editorial DUE** 11 PM | Basic Movement Control | [](../editorials/editorials-general-info) |
+| March 8 | Orientation and Action Selection: Tectum | [The tectum/superior colliculus as the vertebrate solution for spatial sensory integration and action](https://doi.org/10.1016/j.cub.2021.04.001) sections: **The tectum/SC’s intrinsic networks and their computations** (*The tectum/SC’s conserved laminar structure* and *The lamprey tectum’s sensory and motor maps and circuit mechanisms*) , **Sensorimotor transformation, premotor outputs, and behavior selection**, and **Conclusions and future directions**;<br>[Orienting our view of the superior colliculus: specializations and general functions](https://doi.org/10.1016/j.conb.2021.10.005)| [](../markdown/tectum) |
+| March 11-26 | **Spring Break** |  |  |
+| **March 27** | Dealing with High Dimensional Data | (Get a gist of this material and we will look at them together as well)<br> [Geometric View of Data](../executable/Tutorial_GeometricViewOfData);<br> [Dimensionality Reduction](../executable/Tutorial_DimensionalityReduction) | [](../markdown/high-dimensional-techniques) |
+| March 29 | *Action* Selection: Leech Swim/Crawl | [Optical Imaging of Neuronal Populations During Decision-Making](https://doi.org/10.1126/science.1103736) | [](../markdown/action-selection_leech-swim-crawl) |
+| **April 3** | *Action* Selection: Amygdala | [Integrated Control of Predatory Hunting by the Central Nucleus of the Amygdala](https://doi.org/10.1016/j.cell.2016.12.027) | [](../markdown/action-selection_amygdala) |
+| April 5 | *Action* Control: Motor Cortex | [Neural population dynamics during reaching](https://doi.org/10.1038/nature11129) (SKIP "Population-level quantification");<br> [A Dynamical Basis Set for Generating Reaches](http://stat.columbia.edu/~cunningham/pdf/ChurchlandCSHL2015.pdf)(SKIP the following sections: "Rotations are a Dominant Motif in the Population Response" (on page 5-6), "Rotational Structure is Absent for Muscles and Traditional Models" (on page 7), "Interpretation of Why "Tuning" Changes With Time (on page 9), "Pitfalls of the Population PSTH" (on page 9-11)) | [](../markdown/action-control_motor-cortex) |
+| **April 10** | *Action* Control: Motor Cortex | [Motor Cortex Embeds Muscle-like Commands in an Untangled Population Response](https://doi.org/10.1016/j.neuron.2018.01.004)(SKIP the following sections of Results (spanning pg 960-962): “Hypothesis-based predictions of neural responses", "Alternative Predictions", "Signals Introduced by optimization yield incidental correlations") | [](../markdown/action-control_motor-cortex) |
+| April 12 | *Action* Control: Spinal Cord (high D) | [Neurons that control walking go round in circles](https://doi.org/10.1038/d41586-022-02238-1);<br>[Movement is governed by rotational neural dynamics in spinal motor networks](https://doi.org/10.1038/s41586-022-05293-w) | [](../markdown/action-control_brainstem-high-d) |
+| **April 17** | Basal Ganglia and Cerebellum Introduction | [Liqun Luo (2020) Cerebellum](https://drive.google.com/file/d/1UhWObmpKeWcfPPfgu55NiBGphYtrLxbA/view?usp=sharing);<br>[Liqun Luo (2020) Basal Ganglia](https://drive.google.com/file/d/19uX3ZtEw-FGPLq_zIiuOYMLND-ttnEp4/view?usp=share_link) | [](../markdown/canonical-circuits) |
+| April 19 | Action Sequencing: Basal Ganglia | [Optogenetic Editing Reveals the Hierarchical Organization of Learned Action Sequences](https://doi.org/10.1016/j.cell.2018.06.012) | [](../markdown/action-sequencing_basal-ganglia) |
+| **April 24** | Action Sequencing: Basal Ganglia | [The Striatum Organizes 3D Behavior via Moment-toMoment Action Selection](https://doi.org/10.1016/j.cell.2018.04.019) sections: **Summary**, **Intro**, **Results** (introductory paragraph), **Pathway decorrelations facilitate behavioral encoding and decoding**, **Figure 3**, **Sequence-specific neural representations for syllables**, **Figure 4**, **The DLS is required for moment-to-moment action selection**, **Figure 7**, and **Discussion** | [](../markdown/action-sequencing_basal-ganglia) |
+| **April 24** | **Editorial DUE** 11 PM | Basic Action Control | [](../editorials/editorials-general-info) |
+| April 26 | Coordination: Cerebellum | [A quantitative framework for whole-body coordination reveals specific deficits in freely walking ataxic mice](https://doi.org/10.7554/eLife.07892) | [](../markdown/coordination-cerebellum) |
+| **May 1** | Context: Cerebellum | [Learning to expect the unexpected: rapid updating in primate cerebellum during voluntary self-motion](https://doi.org/10.1038/nn.4077) | [](../markdown/context-cerebellum) |
+| May 3 | Movement Effects on Sensory Systems | [How do fish make electricity?](https://youtu.be/z0M7_HPSi14);<br>[Studying electric fish in the field](https://youtu.be/I6vnKawJGyE);<br>[Perks and Sawtell 2019](https://drive.google.com/file/d/1zzOzx8Xsn3ZoRGfenLISd8pMB9pEZoIT/view?usp=sharing) pg 318-326 and 332-334 (sections 11.3-11.4.3 and 11.6.2) | [](../markdown/movement-effects-sensory-systems) |
+| **May 8** | Movement Effects on Sensory Systems | [Perks and Sawtell 2019](https://drive.google.com/file/d/1zzOzx8Xsn3ZoRGfenLISd8pMB9pEZoIT/view?usp=sharing) pg 327-330 (section 11.5) | [](../markdown/movement-effects-sensory-systems) |
+| May 10 | Wrap Up | Assess: [Connecting neuronal circuits for movement](https://doi.org/10.1126/science.aat5994) |  |
+| May 16 | **Editorial DUE** 11 PM | Beyond Basic Control | [](../editorials/editorials-general-info) |
+
+
+May 11-**15** Reading Period
+May 16-19 Final Exam Period
+
+

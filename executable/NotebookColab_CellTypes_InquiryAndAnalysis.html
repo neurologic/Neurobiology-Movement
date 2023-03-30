@@ -1,0 +1,1360 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell Types &#8212; Neurobiology of Movement</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Neuron Coding" href="NotebookColab_LIF_NeuronModel_Tutorial.html" />
+    <link rel="prev" title="Kinematics and Kinetics of Walking" href="NotebookColab_Kinematics_WBDS_simple.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/juggling-header.jpeg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Neurobiology of Movement</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../welcome.html">
+   Welcome
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  General
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../syllabus.html">
+   Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../schedule.html">
+   Schedule
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../editorials/editorials-general-info.html">
+   Editorials
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../editorials/editorials-guidelines.html">
+     Guidelines
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../editorials/editorials-examples.html">
+     Examples
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Static Content
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown/introduction.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../markdown/basic-movement-general.html">
+   Basic Movement Control
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/kinematics.html">
+     Movement
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/anatomy.html">
+     Anatomy
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/neuro-muscle-coding.html">
+     NeuroMuscular Coding
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/movement-control_antagonistic-pairs.html">
+     <em>
+      Movement
+     </em>
+     Control: Antagonistic Pairs
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/cells-circuits.html">
+     Cell Types and Circuits
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/strength.html">
+     Strength
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/movement-control_motor-cortex.html">
+     <em>
+      Movement
+     </em>
+     Control: Motor Cortex
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../markdown/basic-action-general.html">
+   Basic Action Control
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-control_cpg.html">
+     <em>
+      Action
+     </em>
+     Control: CPGs
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-control_brainstem.html">
+     Action Control: Brainstem
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/tectum.html">
+     Orientation and
+     <em>
+      Action
+     </em>
+     Selection: Tectum
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/high-dimensional-techniques.html">
+     High dimensional data/techniques/thinking
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-selection_leech-swim-crawl.html">
+     Action Selection: leech swim/crawl
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-selection_amygdala.html">
+     Action Selection: Amygdala
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-control_motor-cortex.html">
+     <em>
+      Action
+     </em>
+     Control: Motor Cortex
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-control_brainstem-high-d.html">
+     Action Control: Spinal Cord (high D)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../markdown/beyond-general.html">
+   Beyond Basic Control
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/canonical-circuits.html">
+     Canonical Circuits
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/action-sequencing_basal-ganglia.html">
+     Action Sequencing: Basal Ganglia
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/coordination-cerebellum.html">
+     Coordination: Cerebellum
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/context-cerebellum.html">
+     Context: Cerebellum
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../markdown/movement-effects-sensory-systems.html">
+     Movement Effects on Sensory Systems
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Interactive Notebooks
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="NotebookColab_Introduction.html">
+   Introduction to Colab Notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NotebookColab_Kinematics_WBDS_simple.html">
+   Kinematics and Kinetics of Walking
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Cell Types
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NotebookColab_LIF_NeuronModel_Tutorial.html">
+   Neuron Coding
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NotebookColab_Georgopoulus1982.html">
+   Movement Control: Motor Cortex
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Tutorial_GeometricViewOfData.html">
+   Geometric view of data
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Tutorial_DimensionalityReduction.html">
+   Dimensionality Reduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="BasisSets.html">
+   Basis Sets
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/executable/NotebookColab_CellTypes_InquiryAndAnalysis.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/neurologic/Neurobiology-Movement"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/neurologic/Neurobiology-Movement/issues/new?title=Issue%20on%20page%20%2Fexecutable/NotebookColab_CellTypes_InquiryAndAnalysis.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/neurologic/Neurobiology-Movement/main?urlpath=tree/executable/NotebookColab_CellTypes_InquiryAndAnalysis.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/neurologic/Neurobiology-Movement/blob/main/executable/NotebookColab_CellTypes_InquiryAndAnalysis.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="../_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Cell Types
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-brain-has-thousands-of-different-types-of-cells">
+     The brain has thousands of different types of cells.
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-allen-institute-database">
+     The Allen Institute DataBase
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#targeting-different-cell-types">
+       Targeting different cell types
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#whole-cell-patch-clamp">
+       Whole-cell patch clamp
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#characterizing-the-electrophysiology-of-cells">
+       Characterizing the electrophysiology of cells
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#manual-database-exploration">
+   Manual Database exploration
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#setup">
+   Setup
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examine-pre-computed-features-across-many-cells">
+   Examine pre-computed features Across Many Cells
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#compare-intrinsic-features">
+     Compare Intrinsic Features
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#compare-action-potential-waveforms">
+     Compare Action Potential Waveforms
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#compare-cortical-layers">
+     Compare cortical layers
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#thats-it-for-today-great-work">
+   That’s it for today – great work!
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technical-notes-credits">
+   Technical notes &amp; credits
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#unused-sections">
+   Unused sections
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#action-potential-of-cells-from-each-layer">
+     Action potential of cells from each layer
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#neuron-diversity-among-layers">
+     Neuron diversity among layers
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plot-individual-sweeps-from-the-website">
+     Plot individual sweeps from the website
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Cell Types</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Cell Types
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-brain-has-thousands-of-different-types-of-cells">
+     The brain has thousands of different types of cells.
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-allen-institute-database">
+     The Allen Institute DataBase
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#targeting-different-cell-types">
+       Targeting different cell types
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#whole-cell-patch-clamp">
+       Whole-cell patch clamp
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#characterizing-the-electrophysiology-of-cells">
+       Characterizing the electrophysiology of cells
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#manual-database-exploration">
+   Manual Database exploration
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#setup">
+   Setup
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examine-pre-computed-features-across-many-cells">
+   Examine pre-computed features Across Many Cells
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#compare-intrinsic-features">
+     Compare Intrinsic Features
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#compare-action-potential-waveforms">
+     Compare Action Potential Waveforms
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#compare-cortical-layers">
+     Compare cortical layers
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#thats-it-for-today-great-work">
+   That’s it for today – great work!
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technical-notes-credits">
+   Technical notes &amp; credits
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#unused-sections">
+   Unused sections
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#action-potential-of-cells-from-each-layer">
+     Action potential of cells from each layer
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#neuron-diversity-among-layers">
+     Neuron diversity among layers
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plot-individual-sweeps-from-the-website">
+     Plot individual sweeps from the website
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <p><a href="https://colab.research.google.com/github/neurologic/Neurobiology-Movement/blob/main/executable/NotebookColab_CellTypes_InquiryAndAnalysis.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<div class="tex2jax_ignore mathjax_ignore section" id="cell-types">
+<h1>Cell Types<a class="headerlink" href="#cell-types" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="the-brain-has-thousands-of-different-types-of-cells">
+<h2>The brain has thousands of different types of cells.<a class="headerlink" href="#the-brain-has-thousands-of-different-types-of-cells" title="Permalink to this headline">¶</a></h2>
+<p>Critically, different cell types serve different functions because they can perform different computations and have unique effects on circuit dynamics - why?. What makes them different? How do we even begin to tease them apart?</p>
+<p><img alt="" src="https://canvas.brown.edu/courses/851434/files/38768331/preview?verifier=D6ZNKahSL6e9e6xh4GMAfbbSJK6ynSYYQwmcKBo8" /></p>
+<p>We can define neurons by their <b>gene expression patterns</b>, <b>electrophysiology features</b>, and <b>structure</b>. Here, we’ll use those three features to compare and contrast cell types in the brain.</p>
+<p>This notebook will help us investigate specific features in the electrophysiology dataset from the Allen Brain Atlas.</p>
+</div>
+<div class="section" id="the-allen-institute-database">
+<h2>The Allen Institute DataBase<a class="headerlink" href="#the-allen-institute-database" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="targeting-different-cell-types">
+<h3>Targeting different cell types<a class="headerlink" href="#targeting-different-cell-types" title="Permalink to this headline">¶</a></h3>
+<p>How did the Allen Institute actually distinguish between different cell types? To do so, they capitalized on the fact that different cells in the brain often express different genes. With genetic engineering, we can express glowing proteins (such as green fluorescent protein) in cells that express a specific gene. This approach takes advantage of an enzyme called <a class="reference external" href="https://en.wikipedia.org/wiki/Cre_recombinase">Cre recombinase</a>, which is found in bacteriophages, but not mammals. When we artificially express Cre recombinase in a specific cell type and include LoxP sites around our glowing protein, the Cre recombinase comes and flips those LoxP sites around, leading to protein expression and a gorgeous glowing neuron. This system is called the Cre-LoxP system and is one of the main tools that neuroscientists use to identify and target specific cells in the brain. You can learn more about the Cre-LoxP system <a class="reference external" href="https://www.jax.org/news-and-insights/2006/may/the-cre-lox-and-flp-frt-systems">here</a>.</p>
+</div>
+<div class="section" id="whole-cell-patch-clamp">
+<h3>Whole-cell patch clamp<a class="headerlink" href="#whole-cell-patch-clamp" title="Permalink to this headline">¶</a></h3>
+<p>In order to listen to neurons, the Allen researchers guided glass electrodes towards their glowing neurons under a microscope. Instead of poking into the cell to listen to it, they lowered the electrode very close the cell, and created a tiny bit of suction to break the cell membrane. As a result, the internal cell space becomes continuous with the electrode and enables really clean recordings of the cell’s activity. This technique is called whole-cell patch clamp. It’s a tough technique, but one that has proven irreplaceable in our understanding of how cells communicate. You can watch a virtual tour of the Allen Institute’s patch clamping <a class="reference external" href="https://www.youtube.com/watch?v=TUoCQTwewVo&amp;feature=youtu.be">here</a>.</p>
+</div>
+<div class="section" id="characterizing-the-electrophysiology-of-cells">
+<h3>Characterizing the electrophysiology of cells<a class="headerlink" href="#characterizing-the-electrophysiology-of-cells" title="Permalink to this headline">¶</a></h3>
+<p>You’ll find many different metrics which describe what happened when the Allen researchers stimulated and recorded from different cells. Let’s breakdown what a few of these properties are actually measuring:</p>
+<ul class="simple">
+<li><p>vrest: resting membrane potential</p></li>
+<li><p>upstroke-downstroke: ratio of action potential upstroke to downstroke</p></li>
+<li><p>adaptation: the rate at which firing speeds up or slows down during a stimulus</p></li>
+<li><p>avg_isi (average ISI): the mean value of all interspike intervals in a sweep</p></li>
+<li><p>trough_v_short_square: minimum value of the membrane potential during the after-hyperpolarization in response to a short square input</p></li>
+</ul>
+<p>If you’re curious about the other metrics you see, there is a <a class="reference external" href="https://docs.google.com/document/d/1YGLwkMTebwrXd_1E817LFbztMjSTCWh83Mlp3_3ZMEo/edit?usp=sharing">full glossary here</a>. You can also check the <a class="reference external" href="http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf">detailed Allen Institute for Brain Science Documentation</a>.</p>
+</div>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="manual-database-exploration">
+<h1>Manual Database exploration<a class="headerlink" href="#manual-database-exploration" title="Permalink to this headline">¶</a></h1>
+<p>Before we access the dataset programatically to perform meta-analyses in python, we’ll look at a few cells on the Allen Institute’s online interface to get a feel for what the data looks like.</p>
+<p>Make a table like the following to keep track of the information as you go:</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p>Property</p></th>
+<th class="text-align:center head"><p>Mouse</p></th>
+<th class="text-align:center head"><p>Human</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p><strong>Cre line</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p>N/A</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><strong>Protein coded for by Cre line gene</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p>N/A</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><strong>Area</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p>N/A</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><strong>Layer</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><strong>Dendrite Type</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><strong>Resting Potential</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><strong>Minimum current to elicit an AP with the long square wave</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><strong>Minimum current to elicit an AP with the short square wave</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><strong>Adaptation Index</strong></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+</tbody>
+</table>
+<ol class="simple">
+<li><p>Go to <a class="reference external" href="http://celltypes.brain-map.org/">http://celltypes.brain-map.org/</a>. Scroll down to “Download Single Cell Data and Models” and the section “Morphology and Electrophysiology” and click on <a class="reference external" href="http://celltypes.brain-map.org/experiment/electrophysiology/474626527">Electrophysiology Page</a>. This page shows us all of the electrophysiology data for one sample cell.</p></li>
+<li><p>On the top, you’ll see a Mouse Line, Brain Area, and Layer where this cell comes from. Note them in the first column of your Table.</p></li>
+<li><p>Go to <a class="reference external" href="https://www.ncbi.nlm.nih.gov/gene/">https://www.ncbi.nlm.nih.gov/gene/</a> and search for the name of the gene that was used for this cell’s Cre-driver line (in other words, the cells that they targeted to get this data had that gene, and therefore they also expressed Cre-recombinase). The Mouse Line tells us the Cre-driver line that was used (without -Cre). In the first column of your table, note what the Cre-driver gene codes for.</p></li>
+<li><p>This page also gives us some key details about the cell. In the first column of your table, note the cell’s resting membrane potential.</p></li>
+<li><p>Click through the stimulus sweeps (the colored boxes) to find the first one that elicited an action potential (make sure “<em>Long square</em>” is selected from the stimulus dropdown menu. In the first column of your table, record the minimum stimulus amplitude required to elicit an action potential in this cell.</p></li>
+</ol>
+<blockquote>
+<div><p>Note: You should notice that this value is either very close or identical to the rheobase of the cell, as reported on the table on the top. As a reminder, the rheobase is defined as the minimum current needed to elicit an action potential. When the current is below the rheobase, an action potential will never occur regardless of how long the stimulation is.</p>
+</div></blockquote>
+<ol class="simple">
+<li><p>Click through to a stimulus sweep with a higher current injection. Does the cell adapt to the stimulus? In other words, does the space between spikes increase? Is there a metric here that would help quantify this? In the first column of your table, record that metric.</p></li>
+<li><p>Use the stimulus dropdown menu on the left to change the stimulus type to “<em>Short square</em>” (Square simply describes the shape of the stimulus, and it’s a common way to inject current into cells. There are more details on the stimuli the Allen used <a class="reference external" href="https://github.com/ajuavinett/CellTypesLesson/blob/master/docs/stimuli.png?raw=truehttps://github.com/ajuavinett/CellTypesLesson/blob/master/docs/stimuli.png?raw=true">here</a>). Look at how the current injection trace changes – now, it’s a shorter pulse. In the first column of your table, record the minimum current needed to elicit an action potential at this stimulus.</p></li>
+</ol>
+<blockquote>
+<div><p>“Why would a longer stimulus require less current to elicit an action potential?”</p>
+</div></blockquote>
+<ol class="simple">
+<li><p>Use the stimulus dropdown menu on the left to change the stimulus type to “Noise.” Take a look at the current injection trace to get an idea of what this stimulus looks like. Note the differences between the cell’s response to this stimulus versus the square wave pulses.</p></li>
+</ol>
+<blockquote>
+<div><p>Why would you want to inject a noisy current into the cell?</p>
+</div></blockquote>
+<ol class="simple">
+<li><p>Click on View Morphology on the right, to check out the morphology of this cell. Take note of the distribution of the axon and the dendrites. Close this window. In the first column of your table, note the dendrite type.</p></li>
+<li><p>Click on Cell Feature Search on the top right corner. Here, you can look through other cells in this dataset. Find a cell from <em>human</em> tissue that is in the same Layer and has the same Dendrite Type as the first cell you looked at. Use the data on that page to fill out the second column of your table.</p></li>
+</ol>
+<p>As you can probably appreciate at this point, pulling all of this data off of the website manually is rather tedious. If we work directly with the dataset, we can get all of these metrics and more.</p>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="setup">
+<h1>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h1>
+<p>The code cell below will install packages into your coding environment – we are <em>not</em> installing anything on your computer.</p>
+<p>The Allen Institute has compiled a set of code and tools called a <strong>Software Development Kit</strong> (SDK). These tools will help us import and analyze the cell types data at the Allen Institute database.</p>
+<p>After you run the cell below, click the <strong>Restart Runtime</strong> button if it pops up, and then you’re ready to proceed.</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Run this cell to setup the notebook coding environment</span>
+
+<span class="c1"># This will ensure that the AllenSDK is installed.</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">allensdk</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;allensdk imported&#39;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">ImportError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="o">!</span>pip install allensdk
+
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">signal</span>
+<span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">widgets</span><span class="p">,</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span><span class="n">interactive_output</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">NaN</span>
+
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">plotly.subplots</span> <span class="kn">import</span> <span class="n">make_subplots</span>
+
+<span class="c1"># !gdown 11AcCK_nCvsJay02ty3Q39oot-huCKogm</span>
+<span class="o">!</span>wget -O ./manifest.json <span class="s1">&#39;https://drive.google.com/uc?export=download&amp;id=11AcCK_nCvsJay02ty3Q39oot-huCKogm&#39;</span>
+
+<span class="n">manifest_file</span> <span class="o">=</span> <span class="s1">&#39;./manifest.json&#39;</span>
+
+<span class="c1">#Import the &quot;Cell Types Cache&quot; from the AllenSDK core package</span>
+<span class="kn">from</span> <span class="nn">allensdk.core.cell_types_cache</span> <span class="kn">import</span> <span class="n">CellTypesCache</span>
+
+<span class="c1">#Initialize the cache as &#39;ctc&#39; (cell types cache)</span>
+<span class="n">ctc</span> <span class="o">=</span> <span class="n">CellTypesCache</span><span class="p">(</span><span class="n">manifest_file</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;CellTypesCache imported.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><i>Note</i>: At some points throughout this notebook, you may get an <code class="docutils literal notranslate"><span class="pre">H5pyDeprecationWarning</span></code>, but don’t worry about it. This is out of our control. :)</p>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="examine-pre-computed-features-across-many-cells">
+<h1>Examine pre-computed features Across Many Cells<a class="headerlink" href="#examine-pre-computed-features-across-many-cells" title="Permalink to this headline">¶</a></h1>
+<p>The Cell Types Database contains a set of electrophysiology features that have already been computed for each cell. This serves as good starting points for analysis. We can query the database to get these features.</p>
+<p><a class="reference external" href="https://drive.google.com/file/d/1ImWFZ5CvBErp7abHAqJlw9VvNJqyVgjd/view?usp=sharing">Here’s a glossary</a>.</p>
+<p><img alt="" src="https://github.com/ajuavinett/CellTypesLesson/blob/master/docs/ap_features.png?raw=true" />
+<br>Image from the <a href="http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf">Allen Institute Cell Types Database Technical Whitepaper.</a>
+<br><br></p>
+<div class="section" id="compare-intrinsic-features">
+<h2>Compare Intrinsic Features<a class="headerlink" href="#compare-intrinsic-features" title="Permalink to this headline">¶</a></h2>
+<p>Different neuron types can be distinguished by specific combinations of intrinsic physiology and morphology. This section enables you to examine the relationship between pairs of intrinsic features and visualize how those features correlate with dendritic morphology.</p>
+<p>Cells with spiny dendrites are typically excitatory cells. Cells with aspiny dendrites are typically inhibitory cells. We can query the database for dendrite type and use that information to color a scatterplot of intrinsic physiology features.</p>
+<p>First, examine the relationship between the speed of the action potential trough, and the ratio between the upstroke and downstroke of the action potential:</p>
+<ul class="simple">
+<li><p><strong>Action potential fast trough</strong> (<code>fast_trough_v_long_square</code>): Minimum value of the membrane potential in the interval lasting 5 ms after the peak.</p></li>
+<li><p><strong>Upstroke/downstroke ratio</strong> (<code>upstroke_downstroke_ratio_long_square</code>)</b>: The ratio between the absolute values of the action potential peak upstroke and the action potential peak downstroke.</div></p></li>
+</ul>
+<p>Select these two variables from the dropdown below after running the code cell.</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Run this cell to create a queriable dataframe of </span>
+<span class="c1">#@markdown all the measured and calculated intrinsic features.</span>
+<span class="c1">#@markdown &gt; NOTE: It may take a minute or two to run. Once you create the dropdown menu, </span>
+<span class="c1">#@markdown you will not need to re-run the code cell to change your selections.</span>
+
+<span class="c1"># No need to edit below this line</span>
+<span class="c1">################################</span>
+
+<span class="c1"># Download all electrophysiology features for all cells</span>
+<span class="n">ephys_features</span> <span class="o">=</span> <span class="n">ctc</span><span class="o">.</span><span class="n">get_ephys_features</span><span class="p">()</span>
+<span class="n">dataframe</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">ephys_features</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;specimen_id&#39;</span><span class="p">)</span>
+
+<span class="c1"># Get information about our cells&#39; dendrites</span>
+<span class="n">cells</span> <span class="o">=</span> <span class="n">ctc</span><span class="o">.</span><span class="n">get_cells</span><span class="p">()</span>
+<span class="n">full_dataframe</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cells</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Ephys features available for </span><span class="si">%d</span><span class="s1"> cells:&#39;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">full_dataframe</span><span class="p">))</span>
+<span class="c1"># full_dataframe.head() # Just show the first 5 rows (the head) of our dataframe </span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;you can investigate the following electrophysiolgoy features:&#39;</span><span class="p">)</span>
+
+<span class="n">w_vars</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectMultiple</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">columns</span><span class="p">),</span>
+    <span class="n">rows</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_vars</span><span class="p">)</span>
+<span class="c1"># print(&#39;Dropdowns generated at &#39; + str(datetime.now(timezone(-timedelta(hours=5)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Run this cell to create a scatterplot of the two selected parameters</span>
+
+<span class="sd">&#39;&#39;&#39;without dendrite type</span>
+<span class="sd"># first_selection = dataframe[w_vars.value[0]]</span>
+<span class="sd"># second_selection = dataframe[w_vars.value[1]]</span>
+
+<span class="sd"># fig = go.Figure()</span>
+<span class="sd"># # make_subplots(rows=2,cols=1,shared_xaxes=True,</span>
+<span class="sd"># #                     vertical_spacing=0.2)</span>
+<span class="sd"># fig.add_trace(go.Scatter(x = first_selection, y = second_selection,</span>
+<span class="sd">#                          opacity=0.5,</span>
+<span class="sd">#                          line_color=&#39;black&#39;,mode=&#39;markers&#39;))</span>
+
+<span class="sd"># fig.update_layout(xaxis_title=w_vars.value[0], </span>
+<span class="sd">#                   yaxis_title=w_vars.value[1],</span>
+<span class="sd">#                   width=450, height=450)</span>
+<span class="sd"># fig.show()</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+
+<span class="c1"># Create a dataframe for spiny cells, and a dataframe for aspiny cells</span>
+<span class="n">spiny_df</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;dendrite_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;spiny&#39;</span><span class="p">]</span>
+<span class="n">aspiny_df</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;dendrite_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;aspiny&#39;</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">==</span><span class="mi">2</span><span class="p">:</span>
+    <span class="n">first_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+    <span class="n">second_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+    <span class="c1"># make_subplots(rows=2,cols=1,shared_xaxes=True,</span>
+    <span class="c1">#                     vertical_spacing=0.2)</span>
+    <span class="n">first_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+    <span class="n">second_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">first_selection</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">second_selection</span><span class="p">,</span>
+                             <span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;spiny&#39;</span><span class="p">,</span>
+                             <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;purple&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">))</span>
+    <span class="n">first_selection</span> <span class="o">=</span> <span class="n">aspiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+    <span class="n">second_selection</span> <span class="o">=</span> <span class="n">aspiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">first_selection</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">second_selection</span><span class="p">,</span>
+                             <span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;aspiny&#39;</span><span class="p">,</span>
+                             <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;orange&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">))</span>
+
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> 
+                      <span class="n">yaxis_title</span><span class="o">=</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                      <span class="n">width</span><span class="o">=</span><span class="mi">450</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;you plotted the following two features:&#39;</span><span class="p">)</span>
+
+    <span class="n">w_selected</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+        <span class="n">options</span><span class="o">=</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">,</span>
+        <span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+    <span class="p">)</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">w_selected</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">)</span><span class="o">!=</span><span class="mi">2</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Uh Oh... you must select two features from the dropdown menu before you can generate the plot.&#39;</span><span class="p">)</span>
+    
+<span class="c1"># print(&#39;Dropdowns generated at &#39; + str(datetime.now(timezone(-timedelta(hours=5)))))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>It looks like there may be roughly two clusters in the data when comparing the upstroke-downstroke ratio and the fast trough voltage. Do the clusters based on these two parameters relate to whether the cells are spiny or aspiny?</p>
+</div>
+<div class="section" id="compare-action-potential-waveforms">
+<h2>Compare Action Potential Waveforms<a class="headerlink" href="#compare-action-potential-waveforms" title="Permalink to this headline">¶</a></h2>
+<p>Now take a closer look to see what these features actually mean for the action potential waveform. Choose one of the two features you just plotted from the dropdown below the figure. Hover your mouse over the plot to get the feature value for two cells (each dot in the scatter corresponds to one cell). Pick cells with values near each end of the spectrum.</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Specify the feature value for each of two cells. Then run this code cell to plot their action potential waveforms.</span>
+
+<span class="n">value_1</span> <span class="o">=</span>  <span class="kc">None</span><span class="c1">#@param {type:&quot;number&quot;} </span>
+<span class="n">value_2</span> <span class="o">=</span> <span class="kc">None</span> <span class="c1">#@param {type:&quot;number&quot;} </span>
+<span class="n">cell1_id</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">w_selected</span><span class="o">.</span><span class="n">value</span><span class="p">]</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">value_1</span><span class="p">)</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span>
+<span class="n">cell2_id</span> <span class="o">=</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">w_selected</span><span class="o">.</span><span class="n">value</span><span class="p">]</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">value_2</span><span class="p">)</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span>
+
+<span class="n">win</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">cell_data</span> <span class="o">=</span> <span class="n">ctc</span><span class="o">.</span><span class="n">get_ephys_data</span><span class="p">(</span><span class="n">cell1_id</span><span class="p">)</span>
+<span class="c1"># spkt = cell_data.get_spike_times(rheobase_sweep_cell1)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cell #1 ID with </span><span class="si">%s</span><span class="s1"> = </span><span class="si">%.4f</span><span class="s1"> is: </span><span class="si">%i</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">w_selected</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">value_1</span><span class="p">,</span><span class="n">cell1_id</span><span class="p">))</span>
+<span class="n">Ival</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep_metadata</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell1_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)[</span><span class="s1">&#39;aibs_stimulus_amplitude_pa&#39;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;rheobase current = </span><span class="si">%i</span><span class="s1"> pA&#39;</span> <span class="o">%</span><span class="k">Ival</span>)
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="n">sweep</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell1_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)</span>
+<span class="n">spkt</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_spike_times</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell1_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">spk_1</span> <span class="o">=</span> <span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;response&#39;</span><span class="p">][</span><span class="nb">int</span><span class="p">((</span><span class="n">spkt</span><span class="o">-</span><span class="n">win</span><span class="p">)</span><span class="o">*</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">]):</span> <span class="nb">int</span><span class="p">((</span><span class="n">spkt</span><span class="o">+</span><span class="n">win</span><span class="p">)</span><span class="o">*</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">])]</span><span class="o">*</span><span class="mf">1e3</span>
+<span class="n">time_1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="n">win</span><span class="p">,</span> <span class="n">win</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">spk_1</span><span class="p">))</span><span class="o">*</span><span class="mf">1e3</span>
+
+
+<span class="n">cell_data</span> <span class="o">=</span> <span class="n">ctc</span><span class="o">.</span><span class="n">get_ephys_data</span><span class="p">(</span><span class="n">cell2_id</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cell #2 ID with </span><span class="si">%s</span><span class="s1"> = </span><span class="si">%.4f</span><span class="s1"> is: </span><span class="si">%i</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">w_selected</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">value_2</span><span class="p">,</span><span class="n">cell2_id</span><span class="p">))</span>
+<span class="n">Ival</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep_metadata</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell2_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)[</span><span class="s1">&#39;aibs_stimulus_amplitude_pa&#39;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;rheobase current = </span><span class="si">%i</span><span class="s1"> pA&#39;</span> <span class="o">%</span><span class="k">Ival</span>)
+
+<span class="c1"># spkt = cell_data.get_spike_times(rheobase_sweep_cell1)</span>
+<span class="n">sweep</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell2_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)</span>
+<span class="n">spkt</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_spike_times</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell2_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">spk_2</span> <span class="o">=</span> <span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;response&#39;</span><span class="p">][</span><span class="nb">int</span><span class="p">((</span><span class="n">spkt</span><span class="o">-</span><span class="n">win</span><span class="p">)</span><span class="o">*</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">]):</span> <span class="nb">int</span><span class="p">((</span><span class="n">spkt</span><span class="o">+</span><span class="n">win</span><span class="p">)</span><span class="o">*</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">])]</span><span class="o">*</span><span class="mf">1e3</span>
+<span class="n">time_2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="n">win</span><span class="p">,</span> <span class="n">win</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">spk_2</span><span class="p">))</span><span class="o">*</span><span class="mf">1e3</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">make_subplots</span><span class="p">(</span><span class="n">rows</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">cols</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">shared_xaxes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1">#go.Figure()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">time_1</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">spk_1</span><span class="p">,</span>
+                         <span class="n">name</span><span class="o">=</span><span class="s1">&#39;cell 1&#39;</span><span class="p">,</span>
+                         <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;lines&#39;</span><span class="p">),</span><span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">time_2</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">spk_2</span><span class="p">,</span>
+                         <span class="n">name</span><span class="o">=</span><span class="s1">&#39;cell 2&#39;</span><span class="p">,</span>
+                         <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;lines&#39;</span><span class="p">),</span><span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;mV cell 1&#39;</span><span class="p">,</span> 
+                  <span class="n">yaxis2_title</span><span class="o">=</span><span class="s1">&#39;mV cell 2&#39;</span><span class="p">,</span>
+                  <span class="n">xaxis2_title</span><span class="o">=</span><span class="s1">&#39;time (ms)&#39;</span><span class="p">,</span>
+                  <span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                  <span class="n">width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+
+<span class="c1"># Create a dataframe for spiny cells, and a dataframe for aspiny cells</span>
+<span class="n">spiny_df</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;dendrite_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;spiny&#39;</span><span class="p">]</span>
+<span class="n">aspiny_df</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;dendrite_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;aspiny&#39;</span><span class="p">]</span>
+
+<span class="n">first_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+<span class="n">second_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="c1"># make_subplots(rows=2,cols=1,shared_xaxes=True,</span>
+<span class="c1">#                     vertical_spacing=0.2)</span>
+<span class="n">first_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+<span class="n">second_selection</span> <span class="o">=</span> <span class="n">spiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">first_selection</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">second_selection</span><span class="p">,</span>
+                         <span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;spiny&#39;</span><span class="p">,</span>
+                         <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;purple&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">))</span>
+<span class="n">first_selection</span> <span class="o">=</span> <span class="n">aspiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+<span class="n">second_selection</span> <span class="o">=</span> <span class="n">aspiny_df</span><span class="p">[</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">first_selection</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">second_selection</span><span class="p">,</span>
+                         <span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;aspiny&#39;</span><span class="p">,</span>
+                         <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;orange&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell1_id</span><span class="p">][</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]],</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell1_id</span><span class="p">][</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]],</span>
+    <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">,</span><span class="n">marker_symbol</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;cell 1&#39;</span><span class="p">,</span>
+    <span class="n">marker_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span>
+<span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell2_id</span><span class="p">][</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]]],</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell2_id</span><span class="p">][</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]]],</span>
+    <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;markers&#39;</span><span class="p">,</span><span class="n">marker_symbol</span><span class="o">=</span><span class="s1">&#39;star&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;cell 2&#39;</span><span class="p">,</span>
+    <span class="n">marker_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">marker_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span>
+<span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">xaxis_title</span><span class="o">=</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> 
+                  <span class="n">yaxis_title</span><span class="o">=</span><span class="n">w_vars</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                  <span class="n">width</span><span class="o">=</span><span class="mi">450</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>You can explore the relationship among different parameters by changing your selections in the dropdown menu then re-running the subsequent code cells to examine the scatter and action potential plots.</p>
+</div>
+<div class="section" id="compare-cortical-layers">
+<h2>Compare cortical layers<a class="headerlink" href="#compare-cortical-layers" title="Permalink to this headline">¶</a></h2>
+<p>Different cortical layers tend to be comprised of different cell types. This may be because different layers perform different computations or functions. Can you find cortical layers that are distinct in a particular electrophysiological feature?</p>
+<!-- You might be asking yourself some questions as you examine your comparisons, such as: 
+
+- Do differences among cortical layers in this feature correspond to differences in action potential physiology? 
+- Do cells from different cortical layers differ in their action potential physiology even though they are similar in the above parameter?
+- What makes more of a difference in determining a neuron's action potential physiology - the layer in which it is found or the value of a particular physiological feature?
+- etc...
+
+To answer these questions, select, from the cortical layers in the dropdown above, whichever you want to compare spike waveforms for. Then run the cell below. -->
+<p>Once you run the code cell below, choose a set of cortical layers and an intrinsic physiology feature to see the distribution of that feature within each layer.</p>
+<blockquote>
+<div><p>Remember that the glossary of pre-computed features can be found <a class="reference external" href="https://docs.google.com/document/d/1YGLwkMTebwrXd_1E817LFbztMjSTCWh83Mlp3_3ZMEo/edit?usp=sharing">here</a>).</p>
+</div></blockquote>
+<p>You can select specific features to compare, or you can keep changing your selection until a unique layer(s) or feature pops out at you.</p>
+<blockquote>
+<div><p>Note that with a single layer and feature selected, you can see the cell ID that has the median feature value for that layer.</p>
+</div></blockquote>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Run this cell to explore the variance in physiology between cortical layers. </span>
+
+<span class="n">select_layer</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">SelectMultiple</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;structure_layer_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">(),</span> <span class="c1"># start with a single trial on a single bout... it will update when runs ; old: np.arange(len(trial_times)),</span>
+    <span class="n">value</span><span class="o">=</span><span class="p">[</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;structure_layer_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()[</span><span class="mi">0</span><span class="p">]],</span>
+    <span class="c1">#rows=10,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Cortical Layer(s)&#39;</span><span class="p">,</span>
+    <span class="n">style</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;200px&#39;</span><span class="p">},</span>
+    <span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+
+<span class="n">select_feature</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Select</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">columns</span><span class="p">),</span> <span class="c1"># start with a single trial on a single bout... it will update when runs ; old: np.arange(len(trial_times)),</span>
+    <span class="n">value</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">columns</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
+    <span class="c1">#rows=10,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Feature&#39;</span><span class="p">,</span>
+    <span class="n">style</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;200px&#39;</span><span class="p">},</span>
+    <span class="n">disabled</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+
+<span class="n">median_readout</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Label</span><span class="p">(</span>
+    <span class="n">value</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;Layer </span><span class="si">{</span><span class="n">NaN</span><span class="si">}</span><span class="s1"> cell ID </span><span class="si">{</span><span class="n">NaN</span><span class="si">}</span><span class="s1"> has a median value </span><span class="si">{</span><span class="n">NaN</span><span class="si">}</span><span class="s1">&#39;</span>
+<span class="p">)</span>
+<span class="n">median_readout</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="s1">&#39;800px&#39;</span>
+
+<span class="c1"># iei_text = widgets.Text(</span>
+<span class="c1">#     value=&#39;0.005&#39;,</span>
+<span class="c1">#     placeholder=&#39;0.005&#39;,</span>
+<span class="c1">#     description=&#39;cell data&#39;,</span>
+<span class="c1">#     style = {&#39;description_width&#39;: &#39;200px&#39;},</span>
+<span class="c1">#     disabled=False</span>
+<span class="c1"># )</span>
+
+<span class="k">def</span> <span class="nf">update_plot</span><span class="p">(</span><span class="n">layer_</span><span class="p">,</span><span class="n">feature_</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span><span class="n">num</span><span class="o">=</span><span class="mi">1</span><span class="p">);</span> <span class="c1">#specify figure number so that it does not keep creating new ones</span>
+    
+    <span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">(</span><span class="n">feature_</span><span class="p">,</span> 
+                 <span class="n">data</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;structure_layer_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">layer_</span><span class="p">)],</span>
+                 <span class="n">hue</span><span class="o">=</span><span class="s1">&#39;structure_layer_name&#39;</span><span class="p">,</span>
+               <span class="n">warn_singular</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    
+    
+    <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">layer_</span><span class="p">:</span>
+        <span class="n">mask</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;structure_layer_name&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">col</span>
+        <span class="n">parameter_value</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nanmedian</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">mask</span><span class="p">,</span><span class="n">feature_</span><span class="p">])</span>
+        <span class="n">cell_id</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">mask</span><span class="p">,</span><span class="n">feature_</span><span class="p">]</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">parameter_value</span><span class="p">)</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span>
+    <span class="c1"># cell_data = ctc.get_ephys_data(cell_id);</span>
+        <span class="n">median_readout</span><span class="o">.</span><span class="n">value</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;Layer </span><span class="si">{</span><span class="n">col</span><span class="si">}</span><span class="s1"> cell ID </span><span class="si">{</span><span class="n">cell_id</span><span class="si">}</span><span class="s1"> has a median value </span><span class="si">{</span><span class="n">parameter_value</span><span class="si">}</span><span class="s1">&#39;</span>
+        <span class="c1"># print(&#39;Layer %s cell with %s = %.4f is: %i&#39; %(col,w_vars_2.value,parameter_value,cell_id))</span>
+    <span class="c1"># Ival = cell_data.get_sweep_metadata(dataframe.loc[cell_id].rheobase_sweep_number)[&#39;aibs_stimulus_amplitude_pa&#39;]</span>
+    <span class="c1"># print(&#39;rheobase current = %i pA&#39; %Ival)</span>
+    <span class="c1"># print(&#39;&#39;)</span>
+    
+<span class="c1">#     for col in layer_:</span>
+<span class="c1">#         mask = full_dataframe[&#39;structure_layer_name&#39;]==col</span>
+<span class="c1">#         ephys = dataframe.loc[mask,feature_]</span>
+<span class="c1">#         medval = np.nanmedian(ephys)</span>
+
+<span class="c1">#         ax.hist(ephys,label=&#39;layer&#39; + col,alpha=0.5)</span>
+        
+<span class="c1">#     plt.legend()</span>
+
+
+<span class="n">w_cortical_layers_</span> <span class="o">=</span> <span class="n">interactive</span><span class="p">(</span><span class="n">update_plot</span><span class="p">,</span> <span class="n">layer_</span><span class="o">=</span><span class="n">select_layer</span><span class="p">,</span> 
+                        <span class="n">feature_</span><span class="o">=</span><span class="n">select_feature</span><span class="p">);</span>
+<span class="n">display</span><span class="p">(</span><span class="n">w_cortical_layers_</span><span class="p">,</span><span class="n">median_readout</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr>
+</div>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="thats-it-for-today-great-work">
+<h1>That’s it for today – great work!<a class="headerlink" href="#thats-it-for-today-great-work" title="Permalink to this headline">¶</a></h1>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown RUN this cell to celebrate</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Nice work!&#39;</span><span class="p">)</span>
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;img src=&quot;https://media.giphy.com/media/xUOwGhOrYP0jP6iAy4/giphy.gif&quot;&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="tex2jax_ignore mathjax_ignore section" id="technical-notes-credits">
+<h1>Technical notes &amp; credits<a class="headerlink" href="#technical-notes-credits" title="Permalink to this headline">¶</a></h1>
+<p>See <a class="reference external" href="#technical">Technical Notes</a> for more information about working with the AllenSDK.</p>
+<p>This notebook demonstrates most of the features of the AllenSDK that help manipulate data in the Cell Types Database.  The main entry point will be through the <code class="docutils literal notranslate"><span class="pre">CellTypesCache</span></code> class. <code class="docutils literal notranslate"><span class="pre">CellTypesCache</span></code> is responsible for downloading Cell Types Database data to a standard directory structure on your hard drive.  If you use this class, you will not have to keep track of where your data lives, other than a root directory.</p>
+<p>Much more information can be found in the <a href="http://help.brain-map.org/download/attachments/8323525/CellTypes_Ephys_Overview.pdf">Allen Brain Atlas whitepaper</a> as well as in their <a href="http://alleninstitute.github.io/AllenSDK/cell_types.html">GitHub documentation</a>.</p>
+<p>This file modified from <a href='https://alleninstitute.github.io/AllenSDK/_static/examples/nb/cell_types.html'>this</a> notebook.</p>
+<p>You can always Google questions you have!)</p>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="unused-sections">
+<h1>Unused sections<a class="headerlink" href="#unused-sections" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="action-potential-of-cells-from-each-layer">
+<h2>Action potential of cells from each layer<a class="headerlink" href="#action-potential-of-cells-from-each-layer" title="Permalink to this headline">¶</a></h2>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Run this cell to plot the action potential </span>
+<span class="c1">#@markdown for a &#39;canonical&#39; (median value) cell from each specified layer</span>
+<span class="c1">#@markdown for the selected parameter.</span>
+<span class="c1"># parameter_value =  0.08#@param {type:&quot;number&quot;} </span>
+<span class="c1"># value_2 =  1.93#@param {type:&quot;number&quot;} </span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">w_selected_2</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+  <span class="n">mask</span> <span class="o">=</span> <span class="n">full_dataframe</span><span class="p">[</span><span class="s1">&#39;structure_layer_name&#39;</span><span class="p">]</span><span class="o">==</span><span class="n">col</span>
+  <span class="n">parameter_value</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nanmedian</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">mask</span><span class="p">,</span><span class="n">w_vars_2</span><span class="o">.</span><span class="n">value</span><span class="p">])</span>
+  <span class="n">cell_id</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">mask</span><span class="p">,</span><span class="n">w_vars_2</span><span class="o">.</span><span class="n">value</span><span class="p">]</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">parameter_value</span><span class="p">)</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span>
+
+  <span class="n">win</span> <span class="o">=</span> <span class="mf">0.01</span>
+  <span class="n">cell_data</span> <span class="o">=</span> <span class="n">ctc</span><span class="o">.</span><span class="n">get_ephys_data</span><span class="p">(</span><span class="n">cell_id</span><span class="p">);</span>
+  <span class="c1"># spkt = cell_data.get_spike_times(rheobase_sweep_cell1)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Layer </span><span class="si">%s</span><span class="s1"> cell with </span><span class="si">%s</span><span class="s1"> = </span><span class="si">%.4f</span><span class="s1"> is: </span><span class="si">%i</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">col</span><span class="p">,</span><span class="n">w_vars_2</span><span class="o">.</span><span class="n">value</span><span class="p">,</span><span class="n">parameter_value</span><span class="p">,</span><span class="n">cell_id</span><span class="p">))</span>
+  <span class="n">Ival</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep_metadata</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)[</span><span class="s1">&#39;aibs_stimulus_amplitude_pa&#39;</span><span class="p">]</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;rheobase current = </span><span class="si">%i</span><span class="s1"> pA&#39;</span> <span class="o">%</span><span class="k">Ival</span>)
+  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+  <span class="n">sweep</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)</span>
+  <span class="n">spkt</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_spike_times</span><span class="p">(</span><span class="n">dataframe</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">cell_id</span><span class="p">]</span><span class="o">.</span><span class="n">rheobase_sweep_number</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="n">spk</span> <span class="o">=</span> <span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;response&#39;</span><span class="p">][</span><span class="nb">int</span><span class="p">((</span><span class="n">spkt</span><span class="o">-</span><span class="n">win</span><span class="p">)</span><span class="o">*</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">]):</span> <span class="nb">int</span><span class="p">((</span><span class="n">spkt</span><span class="o">+</span><span class="n">win</span><span class="p">)</span><span class="o">*</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">])]</span><span class="o">*</span><span class="mf">1e3</span>
+  <span class="n">time</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="n">win</span><span class="p">,</span> <span class="n">win</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">spk</span><span class="p">))</span><span class="o">*</span><span class="mf">1e3</span>
+
+  <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">time</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">spk</span><span class="p">,</span>
+                         <span class="n">name</span><span class="o">=</span><span class="s1">&#39;layer &#39;</span> <span class="o">+</span> <span class="n">col</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;lines&#39;</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;mV&#39;</span><span class="p">,</span> 
+                  <span class="n">xaxis_title</span><span class="o">=</span><span class="s1">&#39;time (ms)&#39;</span><span class="p">,</span>
+                  <span class="n">width</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="neuron-diversity-among-layers">
+<h2>Neuron diversity among layers<a class="headerlink" href="#neuron-diversity-among-layers" title="Permalink to this headline">¶</a></h2>
+<p>Here, we are visualizing action potential physiology of the canonical (median) neuron for each layer based on a electrophysiological parameter. However, there is cell-type diversity within layers as well. You can explore this diversity extensively in an orderly and efficient manner by writing custom code to query the Allen Database. However, even without any coding experience, you can begin explore this diversity by:</p>
+<ol class="simple">
+<li><p>going to the <a class="reference external" href="https://celltypes.brain-map.org/data">“Cell Feature Search”</a> page at the Allen Institute</p></li>
+<li><p>selecting specific layers and/or brain regions</p></li>
+<li><p>sorting the neurons in that layer in ascending/descending order based on a specific parameter</p></li>
+<li><p>browsing the thumbnail images</p></li>
+<li><p>clicking on individual thumbnails to see more detail</p></li>
+</ol>
+</div>
+<div class="section" id="plot-individual-sweeps-from-the-website">
+<h2>Plot individual sweeps from the website<a class="headerlink" href="#plot-individual-sweeps-from-the-website" title="Permalink to this headline">¶</a></h2>
+<p>Using this cell, you can plot specific sweeps from any cell in the database using the cell’s ID (cell_id) and the number of the sweep (sweep_number).</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#@title {display-mode: &quot;form&quot;}</span>
+
+<span class="c1">#@markdown Enter the information needed in this form </span>
+<span class="c1">#@markdown and then run the code cell to plot the sweep from that neuron.</span>
+<span class="c1">#@markdown &gt;Note: You can change the figure size (re-run the code cell after changing)</span>
+<span class="n">cell_id</span> <span class="o">=</span>  <span class="kc">None</span> <span class="c1">#@param {type:&quot;number&quot;} </span>
+<span class="n">sweep_number</span> <span class="o">=</span> <span class="kc">None</span> <span class="c1">#@param {type:&quot;number&quot;} </span>
+<span class="n">figure_width</span> <span class="o">=</span> <span class="mi">500</span> <span class="c1">#@param {type:&quot;number&quot;} </span>
+<span class="n">figure_height</span> <span class="o">=</span> <span class="mi">450</span> <span class="c1">#@param {type:&quot;number&quot;} </span>
+
+<span class="n">cell_data</span> <span class="o">=</span> <span class="n">ctc</span><span class="o">.</span><span class="n">get_ephys_data</span><span class="p">(</span><span class="n">cell1_id</span><span class="p">)</span>
+<span class="n">sweep</span> <span class="o">=</span> <span class="n">cell_data</span><span class="o">.</span><span class="n">get_sweep</span><span class="p">(</span><span class="n">sweep_number</span><span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">make_subplots</span><span class="p">(</span><span class="n">rows</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> 
+                    <span class="n">row_heights</span><span class="o">=</span><span class="p">[</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">]</span>
+                    <span class="p">,</span><span class="n">shared_xaxes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># go.Figure()</span>
+
+<span class="n">voltage</span> <span class="o">=</span> <span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;response&#39;</span><span class="p">]</span><span class="o">*</span><span class="mf">1e3</span>
+<span class="n">new_fs</span> <span class="o">=</span> <span class="mi">5000</span>
+<span class="n">step</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">new_fs</span><span class="p">)</span>
+<span class="n">voltage_rs</span> <span class="o">=</span> <span class="n">voltage</span><span class="p">[</span><span class="mi">0</span><span class="p">::</span><span class="n">step</span><span class="p">]</span>
+<span class="n">time</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">voltage</span><span class="p">)</span><span class="o">/</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">],</span><span class="nb">len</span><span class="p">(</span><span class="n">voltage_rs</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">time</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">voltage_rs</span><span class="p">,</span>
+                         <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;lines&#39;</span><span class="p">),</span>
+              <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">current</span> <span class="o">=</span> <span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;stimulus&#39;</span><span class="p">]</span><span class="o">*</span><span class="mf">1e12</span>
+<span class="n">new_fs</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="n">step</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">new_fs</span><span class="p">)</span>
+<span class="n">current_rs</span> <span class="o">=</span> <span class="n">current</span><span class="p">[</span><span class="mi">0</span><span class="p">::</span><span class="n">step</span><span class="p">]</span>
+<span class="n">time</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">current</span><span class="p">)</span><span class="o">/</span><span class="n">sweep</span><span class="p">[</span><span class="s1">&#39;sampling_rate&#39;</span><span class="p">],</span><span class="nb">len</span><span class="p">(</span><span class="n">current_rs</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">time</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">current_rs</span><span class="p">,</span>
+                         <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;lines&#39;</span><span class="p">),</span>
+              <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">yaxis_title</span><span class="o">=</span><span class="s1">&#39;mV&#39;</span><span class="p">,</span> 
+                  <span class="n">yaxis2_title</span><span class="o">=</span><span class="s1">&#39;pA&#39;</span><span class="p">,</span>
+                  <span class="n">xaxis2_title</span><span class="o">=</span><span class="s1">&#39;time (s)&#39;</span><span class="p">,</span>
+                  <span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                  <span class="n">width</span><span class="o">=</span><span class="n">figure_width</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">figure_height</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./executable"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="NotebookColab_Kinematics_WBDS_simple.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Kinematics and Kinetics of Walking</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="NotebookColab_LIF_NeuronModel_Tutorial.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Neuron Coding</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Dr. Krista Perks<br/>
+    
+        &copy; Copyright 2022.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
